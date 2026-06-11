@@ -27,6 +27,8 @@ jobs:
           python-version: "3.12"
 
       - name: Fetch latest World Cup data
+        env:
+          ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
         run: python3 scripts/fetch_worldcup.py
 
       - name: Commit if changed
