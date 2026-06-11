@@ -1,15 +1,1113 @@
 {
-  "last_updated": "2026-06-11T10:24:28Z",
-  "phase": "group",
+  "last_updated": "2026-06-11T10:48:20Z",
+  "phase": "knockout",
   "champion": null,
   "groups": [],
   "knockout": {
-    "round_of_32": [],
-    "round_of_16": [],
-    "quarterfinals": [],
-    "semifinals": [],
-    "third_place": [],
-    "final": []
+    "round_of_32": [
+      {
+        "id": "760486",
+        "date": "2026-06-28T19:00Z",
+        "round": "2",
+        "state": "pre",
+        "completed": false,
+        "detail": "Scheduled",
+        "competitors": [
+          {
+            "team": "Group A 2nd Place",
+            "abbr": "2a",
+            "logo": "",
+            "score": 0,
+            "winner": false,
+            "homeAway": "home",
+            "advance": null
+          },
+          {
+            "team": "Group B 2nd Place",
+            "abbr": "2b",
+            "logo": "",
+            "score": 0,
+            "winner": false,
+            "homeAway": "away",
+            "advance": null
+          }
+        ]
+      },
+      {
+        "id": "760487",
+        "date": "2026-06-29T17:00Z",
+        "round": "2",
+        "state": "pre",
+        "completed": false,
+        "detail": "Scheduled",
+        "competitors": [
+          {
+            "team": "Group C Winner",
+            "abbr": "1c",
+            "logo": "",
+            "score": 0,
+            "winner": false,
+            "homeAway": "home",
+            "advance": null
+          },
+          {
+            "team": "Group F 2nd Place",
+            "abbr": "2f",
+            "logo": "",
+            "score": 0,
+            "winner": false,
+            "homeAway": "away",
+            "advance": null
+          }
+        ]
+      },
+      {
+        "id": "760489",
+        "date": "2026-06-29T20:30Z",
+        "round": "2",
+        "state": "pre",
+        "completed": false,
+        "detail": "Scheduled",
+        "competitors": [
+          {
+            "team": "Group E Winner",
+            "abbr": "1e",
+            "logo": "",
+            "score": 0,
+            "winner": false,
+            "homeAway": "home",
+            "advance": null
+          },
+          {
+            "team": "Third Place Group A/B/C/D/F",
+            "abbr": "3rd",
+            "logo": "",
+            "score": 0,
+            "winner": false,
+            "homeAway": "away",
+            "advance": null
+          }
+        ]
+      },
+      {
+        "id": "760488",
+        "date": "2026-06-30T01:00Z",
+        "round": "2",
+        "state": "pre",
+        "completed": false,
+        "detail": "Scheduled",
+        "competitors": [
+          {
+            "team": "Group F Winner",
+            "abbr": "1f",
+            "logo": "",
+            "score": 0,
+            "winner": false,
+            "homeAway": "home",
+            "advance": null
+          },
+          {
+            "team": "Group C 2nd Place",
+            "abbr": "2c",
+            "logo": "",
+            "score": 0,
+            "winner": false,
+            "homeAway": "away",
+            "advance": null
+          }
+        ]
+      },
+      {
+        "id": "760490",
+        "date": "2026-06-30T17:00Z",
+        "round": "2",
+        "state": "pre",
+        "completed": false,
+        "detail": "Scheduled",
+        "competitors": [
+          {
+            "team": "Group E 2nd Place",
+            "abbr": "2e",
+            "logo": "",
+            "score": 0,
+            "winner": false,
+            "homeAway": "home",
+            "advance": null
+          },
+          {
+            "team": "Group I 2nd Place",
+            "abbr": "2i",
+            "logo": "",
+            "score": 0,
+            "winner": false,
+            "homeAway": "away",
+            "advance": null
+          }
+        ]
+      },
+      {
+        "id": "760492",
+        "date": "2026-06-30T21:00Z",
+        "round": "2",
+        "state": "pre",
+        "completed": false,
+        "detail": "Scheduled",
+        "competitors": [
+          {
+            "team": "Group I Winner",
+            "abbr": "1i",
+            "logo": "",
+            "score": 0,
+            "winner": false,
+            "homeAway": "home",
+            "advance": null
+          },
+          {
+            "team": "Third Place Group C/D/F/G/H",
+            "abbr": "3rd",
+            "logo": "",
+            "score": 0,
+            "winner": false,
+            "homeAway": "away",
+            "advance": null
+          }
+        ]
+      },
+      {
+        "id": "760491",
+        "date": "2026-07-01T01:00Z",
+        "round": "2",
+        "state": "pre",
+        "completed": false,
+        "detail": "Scheduled",
+        "competitors": [
+          {
+            "team": "Group A Winner",
+            "abbr": "1a",
+            "logo": "",
+            "score": 0,
+            "winner": false,
+            "homeAway": "home",
+            "advance": null
+          },
+          {
+            "team": "Third Place Group C/E/F/H/I",
+            "abbr": "3rd",
+            "logo": "",
+            "score": 0,
+            "winner": false,
+            "homeAway": "away",
+            "advance": null
+          }
+        ]
+      },
+      {
+        "id": "760495",
+        "date": "2026-07-01T16:00Z",
+        "round": "2",
+        "state": "pre",
+        "completed": false,
+        "detail": "Scheduled",
+        "competitors": [
+          {
+            "team": "Group L Winner",
+            "abbr": "1l",
+            "logo": "",
+            "score": 0,
+            "winner": false,
+            "homeAway": "home",
+            "advance": null
+          },
+          {
+            "team": "Third Place Group E/H/I/J/K",
+            "abbr": "3rd",
+            "logo": "",
+            "score": 0,
+            "winner": false,
+            "homeAway": "away",
+            "advance": null
+          }
+        ]
+      },
+      {
+        "id": "760493",
+        "date": "2026-07-01T20:00Z",
+        "round": "2",
+        "state": "pre",
+        "completed": false,
+        "detail": "Scheduled",
+        "competitors": [
+          {
+            "team": "Group G Winner",
+            "abbr": "1g",
+            "logo": "",
+            "score": 0,
+            "winner": false,
+            "homeAway": "home",
+            "advance": null
+          },
+          {
+            "team": "Third Place Group A/E/H/I/J",
+            "abbr": "3rd",
+            "logo": "",
+            "score": 0,
+            "winner": false,
+            "homeAway": "away",
+            "advance": null
+          }
+        ]
+      },
+      {
+        "id": "760494",
+        "date": "2026-07-02T00:00Z",
+        "round": "2",
+        "state": "pre",
+        "completed": false,
+        "detail": "Scheduled",
+        "competitors": [
+          {
+            "team": "Group D Winner",
+            "abbr": "1d",
+            "logo": "",
+            "score": 0,
+            "winner": false,
+            "homeAway": "home",
+            "advance": null
+          },
+          {
+            "team": "Third Place Group B/E/F/I/J",
+            "abbr": "3rd",
+            "logo": "",
+            "score": 0,
+            "winner": false,
+            "homeAway": "away",
+            "advance": null
+          }
+        ]
+      },
+      {
+        "id": "760497",
+        "date": "2026-07-02T19:00Z",
+        "round": "2",
+        "state": "pre",
+        "completed": false,
+        "detail": "Scheduled",
+        "competitors": [
+          {
+            "team": "Group H Winner",
+            "abbr": "1h",
+            "logo": "",
+            "score": 0,
+            "winner": false,
+            "homeAway": "home",
+            "advance": null
+          },
+          {
+            "team": "Group J 2nd Place",
+            "abbr": "2j",
+            "logo": "",
+            "score": 0,
+            "winner": false,
+            "homeAway": "away",
+            "advance": null
+          }
+        ]
+      },
+      {
+        "id": "760496",
+        "date": "2026-07-02T23:00Z",
+        "round": "2",
+        "state": "pre",
+        "completed": false,
+        "detail": "Scheduled",
+        "competitors": [
+          {
+            "team": "Group K 2nd Place",
+            "abbr": "2k",
+            "logo": "",
+            "score": 0,
+            "winner": false,
+            "homeAway": "home",
+            "advance": null
+          },
+          {
+            "team": "Group L 2nd Place",
+            "abbr": "2l",
+            "logo": "",
+            "score": 0,
+            "winner": false,
+            "homeAway": "away",
+            "advance": null
+          }
+        ]
+      },
+      {
+        "id": "760498",
+        "date": "2026-07-03T03:00Z",
+        "round": "2",
+        "state": "pre",
+        "completed": false,
+        "detail": "Scheduled",
+        "competitors": [
+          {
+            "team": "Group B Winner",
+            "abbr": "1b",
+            "logo": "",
+            "score": 0,
+            "winner": false,
+            "homeAway": "home",
+            "advance": null
+          },
+          {
+            "team": "Third Place Group E/F/G/I/J",
+            "abbr": "3rd",
+            "logo": "",
+            "score": 0,
+            "winner": false,
+            "homeAway": "away",
+            "advance": null
+          }
+        ]
+      },
+      {
+        "id": "760499",
+        "date": "2026-07-03T18:00Z",
+        "round": "2",
+        "state": "pre",
+        "completed": false,
+        "detail": "Scheduled",
+        "competitors": [
+          {
+            "team": "Group D 2nd Place",
+            "abbr": "2d",
+            "logo": "",
+            "score": 0,
+            "winner": false,
+            "homeAway": "home",
+            "advance": null
+          },
+          {
+            "team": "Group G 2nd Place",
+            "abbr": "2g",
+            "logo": "",
+            "score": 0,
+            "winner": false,
+            "homeAway": "away",
+            "advance": null
+          }
+        ]
+      },
+      {
+        "id": "760500",
+        "date": "2026-07-03T22:00Z",
+        "round": "2",
+        "state": "pre",
+        "completed": false,
+        "detail": "Scheduled",
+        "competitors": [
+          {
+            "team": "Group J Winner",
+            "abbr": "1j",
+            "logo": "",
+            "score": 0,
+            "winner": false,
+            "homeAway": "home",
+            "advance": null
+          },
+          {
+            "team": "Group H 2nd Place",
+            "abbr": "2h",
+            "logo": "",
+            "score": 0,
+            "winner": false,
+            "homeAway": "away",
+            "advance": null
+          }
+        ]
+      },
+      {
+        "id": "760501",
+        "date": "2026-07-04T01:30Z",
+        "round": "2",
+        "state": "pre",
+        "completed": false,
+        "detail": "Scheduled",
+        "competitors": [
+          {
+            "team": "Group K Winner",
+            "abbr": "1k",
+            "logo": "",
+            "score": 0,
+            "winner": false,
+            "homeAway": "home",
+            "advance": null
+          },
+          {
+            "team": "Third Place Group D/E/I/J/L",
+            "abbr": "3rd",
+            "logo": "",
+            "score": 0,
+            "winner": false,
+            "homeAway": "away",
+            "advance": null
+          }
+        ]
+      },
+      {
+        "id": "760502",
+        "date": "2026-07-04T17:00Z",
+        "round": "2",
+        "state": "pre",
+        "completed": false,
+        "detail": "Scheduled",
+        "competitors": [
+          {
+            "team": "Round of 32 1 Winner",
+            "abbr": "rd32",
+            "logo": "",
+            "score": 0,
+            "winner": false,
+            "homeAway": "home",
+            "advance": null
+          },
+          {
+            "team": "Round of 32 3 Winner",
+            "abbr": "rd32",
+            "logo": "",
+            "score": 0,
+            "winner": false,
+            "homeAway": "away",
+            "advance": null
+          }
+        ]
+      },
+      {
+        "id": "760503",
+        "date": "2026-07-04T21:00Z",
+        "round": "2",
+        "state": "pre",
+        "completed": false,
+        "detail": "Scheduled",
+        "competitors": [
+          {
+            "team": "Round of 32 2 Winner",
+            "abbr": "rd32",
+            "logo": "",
+            "score": 0,
+            "winner": false,
+            "homeAway": "home",
+            "advance": null
+          },
+          {
+            "team": "Round of 32 5 Winner",
+            "abbr": "rd32",
+            "logo": "",
+            "score": 0,
+            "winner": false,
+            "homeAway": "away",
+            "advance": null
+          }
+        ]
+      }
+    ],
+    "round_of_16": [
+      {
+        "id": "760502",
+        "date": "2026-07-04T17:00Z",
+        "round": "3",
+        "state": "pre",
+        "completed": false,
+        "detail": "Scheduled",
+        "competitors": [
+          {
+            "team": "Round of 32 1 Winner",
+            "abbr": "rd32",
+            "logo": "",
+            "score": 0,
+            "winner": false,
+            "homeAway": "home",
+            "advance": null
+          },
+          {
+            "team": "Round of 32 3 Winner",
+            "abbr": "rd32",
+            "logo": "",
+            "score": 0,
+            "winner": false,
+            "homeAway": "away",
+            "advance": null
+          }
+        ]
+      },
+      {
+        "id": "760503",
+        "date": "2026-07-04T21:00Z",
+        "round": "3",
+        "state": "pre",
+        "completed": false,
+        "detail": "Scheduled",
+        "competitors": [
+          {
+            "team": "Round of 32 2 Winner",
+            "abbr": "rd32",
+            "logo": "",
+            "score": 0,
+            "winner": false,
+            "homeAway": "home",
+            "advance": null
+          },
+          {
+            "team": "Round of 32 5 Winner",
+            "abbr": "rd32",
+            "logo": "",
+            "score": 0,
+            "winner": false,
+            "homeAway": "away",
+            "advance": null
+          }
+        ]
+      },
+      {
+        "id": "760504",
+        "date": "2026-07-05T20:00Z",
+        "round": "3",
+        "state": "pre",
+        "completed": false,
+        "detail": "Scheduled",
+        "competitors": [
+          {
+            "team": "Round of 32 4 Winner",
+            "abbr": "rd32",
+            "logo": "",
+            "score": 0,
+            "winner": false,
+            "homeAway": "home",
+            "advance": null
+          },
+          {
+            "team": "Round of 32 6 Winner",
+            "abbr": "rd32",
+            "logo": "",
+            "score": 0,
+            "winner": false,
+            "homeAway": "away",
+            "advance": null
+          }
+        ]
+      },
+      {
+        "id": "760505",
+        "date": "2026-07-06T00:00Z",
+        "round": "3",
+        "state": "pre",
+        "completed": false,
+        "detail": "Scheduled",
+        "competitors": [
+          {
+            "team": "Round of 32 7 Winner",
+            "abbr": "rd32",
+            "logo": "",
+            "score": 0,
+            "winner": false,
+            "homeAway": "home",
+            "advance": null
+          },
+          {
+            "team": "Round of 32 8 Winner",
+            "abbr": "rd32",
+            "logo": "",
+            "score": 0,
+            "winner": false,
+            "homeAway": "away",
+            "advance": null
+          }
+        ]
+      },
+      {
+        "id": "760506",
+        "date": "2026-07-06T19:00Z",
+        "round": "3",
+        "state": "pre",
+        "completed": false,
+        "detail": "Scheduled",
+        "competitors": [
+          {
+            "team": "Round of 32 11 Winner",
+            "abbr": "rd32",
+            "logo": "",
+            "score": 0,
+            "winner": false,
+            "homeAway": "home",
+            "advance": null
+          },
+          {
+            "team": "Round of 32 12 Winner",
+            "abbr": "rd32",
+            "logo": "",
+            "score": 0,
+            "winner": false,
+            "homeAway": "away",
+            "advance": null
+          }
+        ]
+      },
+      {
+        "id": "760507",
+        "date": "2026-07-07T00:00Z",
+        "round": "3",
+        "state": "pre",
+        "completed": false,
+        "detail": "Scheduled",
+        "competitors": [
+          {
+            "team": "Round of 32 9 Winner",
+            "abbr": "rd32",
+            "logo": "",
+            "score": 0,
+            "winner": false,
+            "homeAway": "home",
+            "advance": null
+          },
+          {
+            "team": "Round of 32 10 Winner",
+            "abbr": "rd32",
+            "logo": "",
+            "score": 0,
+            "winner": false,
+            "homeAway": "away",
+            "advance": null
+          }
+        ]
+      },
+      {
+        "id": "760509",
+        "date": "2026-07-07T16:00Z",
+        "round": "3",
+        "state": "pre",
+        "completed": false,
+        "detail": "Scheduled",
+        "competitors": [
+          {
+            "team": "Round of 32 14 Winner",
+            "abbr": "rd32",
+            "logo": "",
+            "score": 0,
+            "winner": false,
+            "homeAway": "home",
+            "advance": null
+          },
+          {
+            "team": "Round of 32 16 Winner",
+            "abbr": "rd32",
+            "logo": "",
+            "score": 0,
+            "winner": false,
+            "homeAway": "away",
+            "advance": null
+          }
+        ]
+      },
+      {
+        "id": "760508",
+        "date": "2026-07-07T20:00Z",
+        "round": "3",
+        "state": "pre",
+        "completed": false,
+        "detail": "Scheduled",
+        "competitors": [
+          {
+            "team": "Round of 32 13 Winner",
+            "abbr": "rd32",
+            "logo": "",
+            "score": 0,
+            "winner": false,
+            "homeAway": "home",
+            "advance": null
+          },
+          {
+            "team": "Round of 32 15 Winner",
+            "abbr": "rd32",
+            "logo": "",
+            "score": 0,
+            "winner": false,
+            "homeAway": "away",
+            "advance": null
+          }
+        ]
+      },
+      {
+        "id": "760510",
+        "date": "2026-07-09T20:00Z",
+        "round": "3",
+        "state": "pre",
+        "completed": false,
+        "detail": "Scheduled",
+        "competitors": [
+          {
+            "team": "Round of 16 1 Winner",
+            "abbr": "rd16 w1",
+            "logo": "",
+            "score": 0,
+            "winner": false,
+            "homeAway": "home",
+            "advance": null
+          },
+          {
+            "team": "Round of 16 2 Winner",
+            "abbr": "rd16 w2",
+            "logo": "",
+            "score": 0,
+            "winner": false,
+            "homeAway": "away",
+            "advance": null
+          }
+        ]
+      }
+    ],
+    "quarterfinals": [
+      {
+        "id": "760510",
+        "date": "2026-07-09T20:00Z",
+        "round": "4",
+        "state": "pre",
+        "completed": false,
+        "detail": "Scheduled",
+        "competitors": [
+          {
+            "team": "Round of 16 1 Winner",
+            "abbr": "rd16 w1",
+            "logo": "",
+            "score": 0,
+            "winner": false,
+            "homeAway": "home",
+            "advance": null
+          },
+          {
+            "team": "Round of 16 2 Winner",
+            "abbr": "rd16 w2",
+            "logo": "",
+            "score": 0,
+            "winner": false,
+            "homeAway": "away",
+            "advance": null
+          }
+        ]
+      },
+      {
+        "id": "760511",
+        "date": "2026-07-10T19:00Z",
+        "round": "4",
+        "state": "pre",
+        "completed": false,
+        "detail": "Scheduled",
+        "competitors": [
+          {
+            "team": "Round of 16 5 Winner",
+            "abbr": "rd16 w5",
+            "logo": "",
+            "score": 0,
+            "winner": false,
+            "homeAway": "home",
+            "advance": null
+          },
+          {
+            "team": "Round of 16 6 Winner",
+            "abbr": "rd16 w6",
+            "logo": "",
+            "score": 0,
+            "winner": false,
+            "homeAway": "away",
+            "advance": null
+          }
+        ]
+      },
+      {
+        "id": "760512",
+        "date": "2026-07-11T21:00Z",
+        "round": "4",
+        "state": "pre",
+        "completed": false,
+        "detail": "Scheduled",
+        "competitors": [
+          {
+            "team": "Round of 16 3 Winner",
+            "abbr": "rd16 w3",
+            "logo": "",
+            "score": 0,
+            "winner": false,
+            "homeAway": "home",
+            "advance": null
+          },
+          {
+            "team": "Round of 16 4 Winner",
+            "abbr": "rd16 w4",
+            "logo": "",
+            "score": 0,
+            "winner": false,
+            "homeAway": "away",
+            "advance": null
+          }
+        ]
+      },
+      {
+        "id": "760513",
+        "date": "2026-07-12T01:00Z",
+        "round": "4",
+        "state": "pre",
+        "completed": false,
+        "detail": "Scheduled",
+        "competitors": [
+          {
+            "team": "Round of 16 7 Winner",
+            "abbr": "rd16 w7",
+            "logo": "",
+            "score": 0,
+            "winner": false,
+            "homeAway": "home",
+            "advance": null
+          },
+          {
+            "team": "Round of 16 8 Winner",
+            "abbr": "rd16 w8",
+            "logo": "",
+            "score": 0,
+            "winner": false,
+            "homeAway": "away",
+            "advance": null
+          }
+        ]
+      },
+      {
+        "id": "760514",
+        "date": "2026-07-14T19:00Z",
+        "round": "4",
+        "state": "pre",
+        "completed": false,
+        "detail": "Scheduled",
+        "competitors": [
+          {
+            "team": "Quarterfinal 1 Winner",
+            "abbr": "qfw1",
+            "logo": "",
+            "score": 0,
+            "winner": false,
+            "homeAway": "home",
+            "advance": null
+          },
+          {
+            "team": "Quarterfinal 2 Winner",
+            "abbr": "qfw2",
+            "logo": "",
+            "score": 0,
+            "winner": false,
+            "homeAway": "away",
+            "advance": null
+          }
+        ]
+      }
+    ],
+    "semifinals": [
+      {
+        "id": "760514",
+        "date": "2026-07-14T19:00Z",
+        "round": "5",
+        "state": "pre",
+        "completed": false,
+        "detail": "Scheduled",
+        "competitors": [
+          {
+            "team": "Quarterfinal 1 Winner",
+            "abbr": "qfw1",
+            "logo": "",
+            "score": 0,
+            "winner": false,
+            "homeAway": "home",
+            "advance": null
+          },
+          {
+            "team": "Quarterfinal 2 Winner",
+            "abbr": "qfw2",
+            "logo": "",
+            "score": 0,
+            "winner": false,
+            "homeAway": "away",
+            "advance": null
+          }
+        ]
+      },
+      {
+        "id": "760515",
+        "date": "2026-07-15T19:00Z",
+        "round": "5",
+        "state": "pre",
+        "completed": false,
+        "detail": "Scheduled",
+        "competitors": [
+          {
+            "team": "Quarterfinal 3 Winner",
+            "abbr": "qfw3",
+            "logo": "",
+            "score": 0,
+            "winner": false,
+            "homeAway": "home",
+            "advance": null
+          },
+          {
+            "team": "Quarterfinal 4 Winner",
+            "abbr": "qw4",
+            "logo": "",
+            "score": 0,
+            "winner": false,
+            "homeAway": "away",
+            "advance": null
+          }
+        ]
+      },
+      {
+        "id": "760516",
+        "date": "2026-07-18T21:00Z",
+        "round": "5",
+        "state": "pre",
+        "completed": false,
+        "detail": "Scheduled",
+        "competitors": [
+          {
+            "team": "Semifinal 1 Loser",
+            "abbr": "sf l1",
+            "logo": "",
+            "score": 0,
+            "winner": false,
+            "homeAway": "home",
+            "advance": null
+          },
+          {
+            "team": "Semifinal 2 Loser",
+            "abbr": "sf l2",
+            "logo": "",
+            "score": 0,
+            "winner": false,
+            "homeAway": "away",
+            "advance": null
+          }
+        ]
+      },
+      {
+        "id": "760517",
+        "date": "2026-07-19T19:00Z",
+        "round": "5",
+        "state": "pre",
+        "completed": false,
+        "detail": "Scheduled",
+        "competitors": [
+          {
+            "team": "Semifinal 1 Winner",
+            "abbr": "sfw1",
+            "logo": "",
+            "score": 0,
+            "winner": false,
+            "homeAway": "home",
+            "advance": null
+          },
+          {
+            "team": "Semifinal 2 Winner",
+            "abbr": "sfw2",
+            "logo": "",
+            "score": 0,
+            "winner": false,
+            "homeAway": "away",
+            "advance": null
+          }
+        ]
+      }
+    ],
+    "third_place": [
+      {
+        "id": "760516",
+        "date": "2026-07-18T21:00Z",
+        "round": "6",
+        "state": "pre",
+        "completed": false,
+        "detail": "Scheduled",
+        "competitors": [
+          {
+            "team": "Semifinal 1 Loser",
+            "abbr": "sf l1",
+            "logo": "",
+            "score": 0,
+            "winner": false,
+            "homeAway": "home",
+            "advance": null
+          },
+          {
+            "team": "Semifinal 2 Loser",
+            "abbr": "sf l2",
+            "logo": "",
+            "score": 0,
+            "winner": false,
+            "homeAway": "away",
+            "advance": null
+          }
+        ]
+      },
+      {
+        "id": "760517",
+        "date": "2026-07-19T19:00Z",
+        "round": "6",
+        "state": "pre",
+        "completed": false,
+        "detail": "Scheduled",
+        "competitors": [
+          {
+            "team": "Semifinal 1 Winner",
+            "abbr": "sfw1",
+            "logo": "",
+            "score": 0,
+            "winner": false,
+            "homeAway": "home",
+            "advance": null
+          },
+          {
+            "team": "Semifinal 2 Winner",
+            "abbr": "sfw2",
+            "logo": "",
+            "score": 0,
+            "winner": false,
+            "homeAway": "away",
+            "advance": null
+          }
+        ]
+      }
+    ],
+    "final": [
+      {
+        "id": "760517",
+        "date": "2026-07-19T19:00Z",
+        "round": "7",
+        "state": "pre",
+        "completed": false,
+        "detail": "Scheduled",
+        "competitors": [
+          {
+            "team": "Semifinal 1 Winner",
+            "abbr": "sfw1",
+            "logo": "",
+            "score": 0,
+            "winner": false,
+            "homeAway": "home",
+            "advance": null
+          },
+          {
+            "team": "Semifinal 2 Winner",
+            "abbr": "sfw2",
+            "logo": "",
+            "score": 0,
+            "winner": false,
+            "homeAway": "away",
+            "advance": null
+          }
+        ]
+      }
+    ]
   },
   "group_fixtures": [
     {
@@ -24,17 +1122,19 @@
           "team": "Mexico",
           "abbr": "mex",
           "logo": "https://a.espncdn.com/i/teamlogos/countries/500/mex.png",
-          "score": null,
+          "score": 0,
           "winner": false,
-          "homeAway": "home"
+          "homeAway": "home",
+          "advance": null
         },
         {
           "team": "South Africa",
           "abbr": "rsa",
           "logo": "https://a.espncdn.com/i/teamlogos/countries/500/rsa.png",
-          "score": null,
+          "score": 0,
           "winner": false,
-          "homeAway": "away"
+          "homeAway": "away",
+          "advance": null
         }
       ]
     },
@@ -48,35 +1148,2057 @@
       "competitors": [
         {
           "team": "South Korea",
-          "abbr": "kors",
+          "abbr": "kor",
           "logo": "https://a.espncdn.com/i/teamlogos/countries/500/kors.png",
-          "score": null,
+          "score": 0,
           "winner": false,
-          "homeAway": "home"
+          "homeAway": "home",
+          "advance": null
         },
         {
           "team": "Czechia",
           "abbr": "cze",
           "logo": "https://a.espncdn.com/i/teamlogos/countries/500/cze.png",
-          "score": null,
+          "score": 0,
           "winner": false,
-          "homeAway": "away"
+          "homeAway": "away",
+          "advance": null
+        }
+      ]
+    },
+    {
+      "id": "760416",
+      "date": "2026-06-12T19:00Z",
+      "round": "1",
+      "state": "pre",
+      "completed": false,
+      "detail": "Scheduled",
+      "competitors": [
+        {
+          "team": "Canada",
+          "abbr": "can",
+          "logo": "https://a.espncdn.com/i/teamlogos/countries/500/can.png",
+          "score": 0,
+          "winner": false,
+          "homeAway": "home",
+          "advance": null
+        },
+        {
+          "team": "Bosnia-Herzegovina",
+          "abbr": "bih",
+          "logo": "https://a.espncdn.com/i/teamlogos/countries/500/bih.png",
+          "score": 0,
+          "winner": false,
+          "homeAway": "away",
+          "advance": null
+        }
+      ]
+    },
+    {
+      "id": "760417",
+      "date": "2026-06-13T01:00Z",
+      "round": "1",
+      "state": "pre",
+      "completed": false,
+      "detail": "Scheduled",
+      "competitors": [
+        {
+          "team": "United States",
+          "abbr": "usa",
+          "logo": "https://a.espncdn.com/i/teamlogos/countries/500/usa.png",
+          "score": 0,
+          "winner": false,
+          "homeAway": "home",
+          "advance": null
+        },
+        {
+          "team": "Paraguay",
+          "abbr": "par",
+          "logo": "https://a.espncdn.com/i/teamlogos/countries/500/par.png",
+          "score": 0,
+          "winner": false,
+          "homeAway": "away",
+          "advance": null
+        }
+      ]
+    },
+    {
+      "id": "760420",
+      "date": "2026-06-13T19:00Z",
+      "round": "1",
+      "state": "pre",
+      "completed": false,
+      "detail": "Scheduled",
+      "competitors": [
+        {
+          "team": "Qatar",
+          "abbr": "qat",
+          "logo": "https://a.espncdn.com/i/teamlogos/countries/500/qat.png",
+          "score": 0,
+          "winner": false,
+          "homeAway": "home",
+          "advance": null
+        },
+        {
+          "team": "Switzerland",
+          "abbr": "sui",
+          "logo": "https://a.espncdn.com/i/teamlogos/countries/500/sui.png",
+          "score": 0,
+          "winner": false,
+          "homeAway": "away",
+          "advance": null
+        }
+      ]
+    },
+    {
+      "id": "760419",
+      "date": "2026-06-13T22:00Z",
+      "round": "1",
+      "state": "pre",
+      "completed": false,
+      "detail": "Scheduled",
+      "competitors": [
+        {
+          "team": "Brazil",
+          "abbr": "bra",
+          "logo": "https://a.espncdn.com/i/teamlogos/countries/500/bra.png",
+          "score": 0,
+          "winner": false,
+          "homeAway": "home",
+          "advance": null
+        },
+        {
+          "team": "Morocco",
+          "abbr": "mar",
+          "logo": "https://a.espncdn.com/i/teamlogos/countries/500/mar.png",
+          "score": 0,
+          "winner": false,
+          "homeAway": "away",
+          "advance": null
+        }
+      ]
+    },
+    {
+      "id": "760418",
+      "date": "2026-06-14T01:00Z",
+      "round": "1",
+      "state": "pre",
+      "completed": false,
+      "detail": "Scheduled",
+      "competitors": [
+        {
+          "team": "Haiti",
+          "abbr": "hai",
+          "logo": "https://a.espncdn.com/i/teamlogos/countries/500/hai.png",
+          "score": 0,
+          "winner": false,
+          "homeAway": "home",
+          "advance": null
+        },
+        {
+          "team": "Scotland",
+          "abbr": "sco",
+          "logo": "https://a.espncdn.com/i/teamlogos/countries/500/sco.png",
+          "score": 0,
+          "winner": false,
+          "homeAway": "away",
+          "advance": null
+        }
+      ]
+    },
+    {
+      "id": "760421",
+      "date": "2026-06-14T04:00Z",
+      "round": "1",
+      "state": "pre",
+      "completed": false,
+      "detail": "Scheduled",
+      "competitors": [
+        {
+          "team": "Australia",
+          "abbr": "aus",
+          "logo": "https://a.espncdn.com/i/teamlogos/countries/500/aus.png",
+          "score": 0,
+          "winner": false,
+          "homeAway": "home",
+          "advance": null
+        },
+        {
+          "team": "Türkiye",
+          "abbr": "tur",
+          "logo": "https://a.espncdn.com/i/teamlogos/countries/500/tur.png",
+          "score": 0,
+          "winner": false,
+          "homeAway": "away",
+          "advance": null
+        }
+      ]
+    },
+    {
+      "id": "760422",
+      "date": "2026-06-14T17:00Z",
+      "round": "1",
+      "state": "pre",
+      "completed": false,
+      "detail": "Scheduled",
+      "competitors": [
+        {
+          "team": "Germany",
+          "abbr": "ger",
+          "logo": "https://a.espncdn.com/i/teamlogos/countries/500/ger.png",
+          "score": 0,
+          "winner": false,
+          "homeAway": "home",
+          "advance": null
+        },
+        {
+          "team": "Curaçao",
+          "abbr": "cuw",
+          "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/11678.png",
+          "score": 0,
+          "winner": false,
+          "homeAway": "away",
+          "advance": null
+        }
+      ]
+    },
+    {
+      "id": "760425",
+      "date": "2026-06-14T20:00Z",
+      "round": "1",
+      "state": "pre",
+      "completed": false,
+      "detail": "Scheduled",
+      "competitors": [
+        {
+          "team": "Netherlands",
+          "abbr": "ned",
+          "logo": "https://a.espncdn.com/i/teamlogos/countries/500/ned.png",
+          "score": 0,
+          "winner": false,
+          "homeAway": "home",
+          "advance": null
+        },
+        {
+          "team": "Japan",
+          "abbr": "jpn",
+          "logo": "https://a.espncdn.com/i/teamlogos/countries/500/jpn.png",
+          "score": 0,
+          "winner": false,
+          "homeAway": "away",
+          "advance": null
+        }
+      ]
+    },
+    {
+      "id": "760423",
+      "date": "2026-06-14T23:00Z",
+      "round": "1",
+      "state": "pre",
+      "completed": false,
+      "detail": "Scheduled",
+      "competitors": [
+        {
+          "team": "Ivory Coast",
+          "abbr": "civ",
+          "logo": "https://a.espncdn.com/i/teamlogos/countries/500/civ.png",
+          "score": 0,
+          "winner": false,
+          "homeAway": "home",
+          "advance": null
+        },
+        {
+          "team": "Ecuador",
+          "abbr": "ecu",
+          "logo": "https://a.espncdn.com/i/teamlogos/countries/500/ecu.png",
+          "score": 0,
+          "winner": false,
+          "homeAway": "away",
+          "advance": null
+        }
+      ]
+    },
+    {
+      "id": "760424",
+      "date": "2026-06-15T02:00Z",
+      "round": "1",
+      "state": "pre",
+      "completed": false,
+      "detail": "Scheduled",
+      "competitors": [
+        {
+          "team": "Sweden",
+          "abbr": "swe",
+          "logo": "https://a.espncdn.com/i/teamlogos/countries/500/swe.png",
+          "score": 0,
+          "winner": false,
+          "homeAway": "home",
+          "advance": null
+        },
+        {
+          "team": "Tunisia",
+          "abbr": "tun",
+          "logo": "https://a.espncdn.com/i/teamlogos/countries/500/tun.png",
+          "score": 0,
+          "winner": false,
+          "homeAway": "away",
+          "advance": null
+        }
+      ]
+    },
+    {
+      "id": "760428",
+      "date": "2026-06-15T16:00Z",
+      "round": "1",
+      "state": "pre",
+      "completed": false,
+      "detail": "Scheduled",
+      "competitors": [
+        {
+          "team": "Spain",
+          "abbr": "esp",
+          "logo": "https://a.espncdn.com/i/teamlogos/countries/500/esp.png",
+          "score": 0,
+          "winner": false,
+          "homeAway": "home",
+          "advance": null
+        },
+        {
+          "team": "Cape Verde",
+          "abbr": "cpv",
+          "logo": "https://a.espncdn.com/i/teamlogos/countries/500/cpv.png",
+          "score": 0,
+          "winner": false,
+          "homeAway": "away",
+          "advance": null
+        }
+      ]
+    },
+    {
+      "id": "760426",
+      "date": "2026-06-15T19:00Z",
+      "round": "1",
+      "state": "pre",
+      "completed": false,
+      "detail": "Scheduled",
+      "competitors": [
+        {
+          "team": "Belgium",
+          "abbr": "bel",
+          "logo": "https://a.espncdn.com/i/teamlogos/countries/500/bel.png",
+          "score": 0,
+          "winner": false,
+          "homeAway": "home",
+          "advance": null
+        },
+        {
+          "team": "Egypt",
+          "abbr": "egy",
+          "logo": "https://a.espncdn.com/i/teamlogos/countries/500/egy.png",
+          "score": 0,
+          "winner": false,
+          "homeAway": "away",
+          "advance": null
+        }
+      ]
+    },
+    {
+      "id": "760429",
+      "date": "2026-06-15T22:00Z",
+      "round": "1",
+      "state": "pre",
+      "completed": false,
+      "detail": "Scheduled",
+      "competitors": [
+        {
+          "team": "Saudi Arabia",
+          "abbr": "ksa",
+          "logo": "https://a.espncdn.com/i/teamlogos/countries/500/ksa.png",
+          "score": 0,
+          "winner": false,
+          "homeAway": "home",
+          "advance": null
+        },
+        {
+          "team": "Uruguay",
+          "abbr": "uru",
+          "logo": "https://a.espncdn.com/i/teamlogos/countries/500/uru.png",
+          "score": 0,
+          "winner": false,
+          "homeAway": "away",
+          "advance": null
+        }
+      ]
+    },
+    {
+      "id": "760427",
+      "date": "2026-06-16T01:00Z",
+      "round": "1",
+      "state": "pre",
+      "completed": false,
+      "detail": "Scheduled",
+      "competitors": [
+        {
+          "team": "Iran",
+          "abbr": "irn",
+          "logo": "https://a.espncdn.com/i/teamlogos/countries/500/irn.png",
+          "score": 0,
+          "winner": false,
+          "homeAway": "home",
+          "advance": null
+        },
+        {
+          "team": "New Zealand",
+          "abbr": "nzl",
+          "logo": "https://a.espncdn.com/i/teamlogos/countries/500/nzl.png",
+          "score": 0,
+          "winner": false,
+          "homeAway": "away",
+          "advance": null
+        }
+      ]
+    },
+    {
+      "id": "760432",
+      "date": "2026-06-16T19:00Z",
+      "round": "1",
+      "state": "pre",
+      "completed": false,
+      "detail": "Scheduled",
+      "competitors": [
+        {
+          "team": "France",
+          "abbr": "fra",
+          "logo": "https://a.espncdn.com/i/teamlogos/countries/500/fra.png",
+          "score": 0,
+          "winner": false,
+          "homeAway": "home",
+          "advance": null
+        },
+        {
+          "team": "Senegal",
+          "abbr": "sen",
+          "logo": "https://a.espncdn.com/i/teamlogos/countries/500/sen.png",
+          "score": 0,
+          "winner": false,
+          "homeAway": "away",
+          "advance": null
+        }
+      ]
+    },
+    {
+      "id": "760430",
+      "date": "2026-06-16T22:00Z",
+      "round": "1",
+      "state": "pre",
+      "completed": false,
+      "detail": "Scheduled",
+      "competitors": [
+        {
+          "team": "Iraq",
+          "abbr": "irq",
+          "logo": "https://a.espncdn.com/i/teamlogos/countries/500/irq.png",
+          "score": 0,
+          "winner": false,
+          "homeAway": "home",
+          "advance": null
+        },
+        {
+          "team": "Norway",
+          "abbr": "nor",
+          "logo": "https://a.espncdn.com/i/teamlogos/countries/500/nor.png",
+          "score": 0,
+          "winner": false,
+          "homeAway": "away",
+          "advance": null
+        }
+      ]
+    },
+    {
+      "id": "760433",
+      "date": "2026-06-17T01:00Z",
+      "round": "1",
+      "state": "pre",
+      "completed": false,
+      "detail": "Scheduled",
+      "competitors": [
+        {
+          "team": "Argentina",
+          "abbr": "arg",
+          "logo": "https://a.espncdn.com/i/teamlogos/countries/500/arg.png",
+          "score": 0,
+          "winner": false,
+          "homeAway": "home",
+          "advance": null
+        },
+        {
+          "team": "Algeria",
+          "abbr": "alg",
+          "logo": "https://a.espncdn.com/i/teamlogos/countries/500/alg.png",
+          "score": 0,
+          "winner": false,
+          "homeAway": "away",
+          "advance": null
+        }
+      ]
+    },
+    {
+      "id": "760431",
+      "date": "2026-06-17T04:00Z",
+      "round": "1",
+      "state": "pre",
+      "completed": false,
+      "detail": "Scheduled",
+      "competitors": [
+        {
+          "team": "Austria",
+          "abbr": "aut",
+          "logo": "https://a.espncdn.com/i/teamlogos/countries/500/aut.png",
+          "score": 0,
+          "winner": false,
+          "homeAway": "home",
+          "advance": null
+        },
+        {
+          "team": "Jordan",
+          "abbr": "jor",
+          "logo": "https://a.espncdn.com/i/teamlogos/countries/500/jor.png",
+          "score": 0,
+          "winner": false,
+          "homeAway": "away",
+          "advance": null
+        }
+      ]
+    },
+    {
+      "id": "760435",
+      "date": "2026-06-17T17:00Z",
+      "round": "1",
+      "state": "pre",
+      "completed": false,
+      "detail": "Scheduled",
+      "competitors": [
+        {
+          "team": "Portugal",
+          "abbr": "por",
+          "logo": "https://a.espncdn.com/i/teamlogos/countries/500/por.png",
+          "score": 0,
+          "winner": false,
+          "homeAway": "home",
+          "advance": null
+        },
+        {
+          "team": "Congo DR",
+          "abbr": "cod",
+          "logo": "https://a.espncdn.com/i/teamlogos/countries/500/rdc.png",
+          "score": 0,
+          "winner": false,
+          "homeAway": "away",
+          "advance": null
+        }
+      ]
+    },
+    {
+      "id": "760437",
+      "date": "2026-06-17T20:00Z",
+      "round": "1",
+      "state": "pre",
+      "completed": false,
+      "detail": "Scheduled",
+      "competitors": [
+        {
+          "team": "England",
+          "abbr": "eng",
+          "logo": "https://a.espncdn.com/i/teamlogos/countries/500/eng.png",
+          "score": 0,
+          "winner": false,
+          "homeAway": "home",
+          "advance": null
+        },
+        {
+          "team": "Croatia",
+          "abbr": "cro",
+          "logo": "https://a.espncdn.com/i/teamlogos/countries/500/cro.png",
+          "score": 0,
+          "winner": false,
+          "homeAway": "away",
+          "advance": null
+        }
+      ]
+    },
+    {
+      "id": "760434",
+      "date": "2026-06-17T23:00Z",
+      "round": "1",
+      "state": "pre",
+      "completed": false,
+      "detail": "Scheduled",
+      "competitors": [
+        {
+          "team": "Ghana",
+          "abbr": "gha",
+          "logo": "https://a.espncdn.com/i/teamlogos/countries/500/gha.png",
+          "score": 0,
+          "winner": false,
+          "homeAway": "home",
+          "advance": null
+        },
+        {
+          "team": "Panama",
+          "abbr": "pan",
+          "logo": "https://a.espncdn.com/i/teamlogos/countries/500/pan.png",
+          "score": 0,
+          "winner": false,
+          "homeAway": "away",
+          "advance": null
+        }
+      ]
+    },
+    {
+      "id": "760436",
+      "date": "2026-06-18T02:00Z",
+      "round": "1",
+      "state": "pre",
+      "completed": false,
+      "detail": "Scheduled",
+      "competitors": [
+        {
+          "team": "Uzbekistan",
+          "abbr": "uzb",
+          "logo": "https://a.espncdn.com/i/teamlogos/countries/500/uzb.png",
+          "score": 0,
+          "winner": false,
+          "homeAway": "home",
+          "advance": null
+        },
+        {
+          "team": "Colombia",
+          "abbr": "col",
+          "logo": "https://a.espncdn.com/i/teamlogos/countries/500/col.png",
+          "score": 0,
+          "winner": false,
+          "homeAway": "away",
+          "advance": null
+        }
+      ]
+    },
+    {
+      "id": "760438",
+      "date": "2026-06-18T16:00Z",
+      "round": "1",
+      "state": "pre",
+      "completed": false,
+      "detail": "Scheduled",
+      "competitors": [
+        {
+          "team": "Czechia",
+          "abbr": "cze",
+          "logo": "https://a.espncdn.com/i/teamlogos/countries/500/cze.png",
+          "score": 0,
+          "winner": false,
+          "homeAway": "home",
+          "advance": null
+        },
+        {
+          "team": "South Africa",
+          "abbr": "rsa",
+          "logo": "https://a.espncdn.com/i/teamlogos/countries/500/rsa.png",
+          "score": 0,
+          "winner": false,
+          "homeAway": "away",
+          "advance": null
+        }
+      ]
+    },
+    {
+      "id": "760439",
+      "date": "2026-06-18T19:00Z",
+      "round": "1",
+      "state": "pre",
+      "completed": false,
+      "detail": "Scheduled",
+      "competitors": [
+        {
+          "team": "Switzerland",
+          "abbr": "sui",
+          "logo": "https://a.espncdn.com/i/teamlogos/countries/500/sui.png",
+          "score": 0,
+          "winner": false,
+          "homeAway": "home",
+          "advance": null
+        },
+        {
+          "team": "Bosnia-Herzegovina",
+          "abbr": "bih",
+          "logo": "https://a.espncdn.com/i/teamlogos/countries/500/bih.png",
+          "score": 0,
+          "winner": false,
+          "homeAway": "away",
+          "advance": null
+        }
+      ]
+    },
+    {
+      "id": "760440",
+      "date": "2026-06-18T22:00Z",
+      "round": "1",
+      "state": "pre",
+      "completed": false,
+      "detail": "Scheduled",
+      "competitors": [
+        {
+          "team": "Canada",
+          "abbr": "can",
+          "logo": "https://a.espncdn.com/i/teamlogos/countries/500/can.png",
+          "score": 0,
+          "winner": false,
+          "homeAway": "home",
+          "advance": null
+        },
+        {
+          "team": "Qatar",
+          "abbr": "qat",
+          "logo": "https://a.espncdn.com/i/teamlogos/countries/500/qat.png",
+          "score": 0,
+          "winner": false,
+          "homeAway": "away",
+          "advance": null
+        }
+      ]
+    },
+    {
+      "id": "760441",
+      "date": "2026-06-19T01:00Z",
+      "round": "1",
+      "state": "pre",
+      "completed": false,
+      "detail": "Scheduled",
+      "competitors": [
+        {
+          "team": "Mexico",
+          "abbr": "mex",
+          "logo": "https://a.espncdn.com/i/teamlogos/countries/500/mex.png",
+          "score": 0,
+          "winner": false,
+          "homeAway": "home",
+          "advance": null
+        },
+        {
+          "team": "South Korea",
+          "abbr": "kor",
+          "logo": "https://a.espncdn.com/i/teamlogos/countries/500/kors.png",
+          "score": 0,
+          "winner": false,
+          "homeAway": "away",
+          "advance": null
+        }
+      ]
+    },
+    {
+      "id": "760442",
+      "date": "2026-06-19T19:00Z",
+      "round": "1",
+      "state": "pre",
+      "completed": false,
+      "detail": "Scheduled",
+      "competitors": [
+        {
+          "team": "United States",
+          "abbr": "usa",
+          "logo": "https://a.espncdn.com/i/teamlogos/countries/500/usa.png",
+          "score": 0,
+          "winner": false,
+          "homeAway": "home",
+          "advance": null
+        },
+        {
+          "team": "Australia",
+          "abbr": "aus",
+          "logo": "https://a.espncdn.com/i/teamlogos/countries/500/aus.png",
+          "score": 0,
+          "winner": false,
+          "homeAway": "away",
+          "advance": null
+        }
+      ]
+    },
+    {
+      "id": "760445",
+      "date": "2026-06-19T22:00Z",
+      "round": "1",
+      "state": "pre",
+      "completed": false,
+      "detail": "Scheduled",
+      "competitors": [
+        {
+          "team": "Scotland",
+          "abbr": "sco",
+          "logo": "https://a.espncdn.com/i/teamlogos/countries/500/sco.png",
+          "score": 0,
+          "winner": false,
+          "homeAway": "home",
+          "advance": null
+        },
+        {
+          "team": "Morocco",
+          "abbr": "mar",
+          "logo": "https://a.espncdn.com/i/teamlogos/countries/500/mar.png",
+          "score": 0,
+          "winner": false,
+          "homeAway": "away",
+          "advance": null
+        }
+      ]
+    },
+    {
+      "id": "760444",
+      "date": "2026-06-20T00:30Z",
+      "round": "1",
+      "state": "pre",
+      "completed": false,
+      "detail": "Scheduled",
+      "competitors": [
+        {
+          "team": "Brazil",
+          "abbr": "bra",
+          "logo": "https://a.espncdn.com/i/teamlogos/countries/500/bra.png",
+          "score": 0,
+          "winner": false,
+          "homeAway": "home",
+          "advance": null
+        },
+        {
+          "team": "Haiti",
+          "abbr": "hai",
+          "logo": "https://a.espncdn.com/i/teamlogos/countries/500/hai.png",
+          "score": 0,
+          "winner": false,
+          "homeAway": "away",
+          "advance": null
+        }
+      ]
+    },
+    {
+      "id": "760443",
+      "date": "2026-06-20T03:00Z",
+      "round": "1",
+      "state": "pre",
+      "completed": false,
+      "detail": "Scheduled",
+      "competitors": [
+        {
+          "team": "Türkiye",
+          "abbr": "tur",
+          "logo": "https://a.espncdn.com/i/teamlogos/countries/500/tur.png",
+          "score": 0,
+          "winner": false,
+          "homeAway": "home",
+          "advance": null
+        },
+        {
+          "team": "Paraguay",
+          "abbr": "par",
+          "logo": "https://a.espncdn.com/i/teamlogos/countries/500/par.png",
+          "score": 0,
+          "winner": false,
+          "homeAway": "away",
+          "advance": null
+        }
+      ]
+    },
+    {
+      "id": "760447",
+      "date": "2026-06-20T17:00Z",
+      "round": "1",
+      "state": "pre",
+      "completed": false,
+      "detail": "Scheduled",
+      "competitors": [
+        {
+          "team": "Netherlands",
+          "abbr": "ned",
+          "logo": "https://a.espncdn.com/i/teamlogos/countries/500/ned.png",
+          "score": 0,
+          "winner": false,
+          "homeAway": "home",
+          "advance": null
+        },
+        {
+          "team": "Sweden",
+          "abbr": "swe",
+          "logo": "https://a.espncdn.com/i/teamlogos/countries/500/swe.png",
+          "score": 0,
+          "winner": false,
+          "homeAway": "away",
+          "advance": null
+        }
+      ]
+    },
+    {
+      "id": "760448",
+      "date": "2026-06-20T20:00Z",
+      "round": "1",
+      "state": "pre",
+      "completed": false,
+      "detail": "Scheduled",
+      "competitors": [
+        {
+          "team": "Germany",
+          "abbr": "ger",
+          "logo": "https://a.espncdn.com/i/teamlogos/countries/500/ger.png",
+          "score": 0,
+          "winner": false,
+          "homeAway": "home",
+          "advance": null
+        },
+        {
+          "team": "Ivory Coast",
+          "abbr": "civ",
+          "logo": "https://a.espncdn.com/i/teamlogos/countries/500/civ.png",
+          "score": 0,
+          "winner": false,
+          "homeAway": "away",
+          "advance": null
+        }
+      ]
+    },
+    {
+      "id": "760446",
+      "date": "2026-06-21T00:00Z",
+      "round": "1",
+      "state": "pre",
+      "completed": false,
+      "detail": "Scheduled",
+      "competitors": [
+        {
+          "team": "Ecuador",
+          "abbr": "ecu",
+          "logo": "https://a.espncdn.com/i/teamlogos/countries/500/ecu.png",
+          "score": 0,
+          "winner": false,
+          "homeAway": "home",
+          "advance": null
+        },
+        {
+          "team": "Curaçao",
+          "abbr": "cuw",
+          "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/11678.png",
+          "score": 0,
+          "winner": false,
+          "homeAway": "away",
+          "advance": null
+        }
+      ]
+    },
+    {
+      "id": "760449",
+      "date": "2026-06-21T04:00Z",
+      "round": "1",
+      "state": "pre",
+      "completed": false,
+      "detail": "Scheduled",
+      "competitors": [
+        {
+          "team": "Tunisia",
+          "abbr": "tun",
+          "logo": "https://a.espncdn.com/i/teamlogos/countries/500/tun.png",
+          "score": 0,
+          "winner": false,
+          "homeAway": "home",
+          "advance": null
+        },
+        {
+          "team": "Japan",
+          "abbr": "jpn",
+          "logo": "https://a.espncdn.com/i/teamlogos/countries/500/jpn.png",
+          "score": 0,
+          "winner": false,
+          "homeAway": "away",
+          "advance": null
+        }
+      ]
+    },
+    {
+      "id": "760453",
+      "date": "2026-06-21T16:00Z",
+      "round": "1",
+      "state": "pre",
+      "completed": false,
+      "detail": "Scheduled",
+      "competitors": [
+        {
+          "team": "Spain",
+          "abbr": "esp",
+          "logo": "https://a.espncdn.com/i/teamlogos/countries/500/esp.png",
+          "score": 0,
+          "winner": false,
+          "homeAway": "home",
+          "advance": null
+        },
+        {
+          "team": "Saudi Arabia",
+          "abbr": "ksa",
+          "logo": "https://a.espncdn.com/i/teamlogos/countries/500/ksa.png",
+          "score": 0,
+          "winner": false,
+          "homeAway": "away",
+          "advance": null
+        }
+      ]
+    },
+    {
+      "id": "760451",
+      "date": "2026-06-21T19:00Z",
+      "round": "1",
+      "state": "pre",
+      "completed": false,
+      "detail": "Scheduled",
+      "competitors": [
+        {
+          "team": "Belgium",
+          "abbr": "bel",
+          "logo": "https://a.espncdn.com/i/teamlogos/countries/500/bel.png",
+          "score": 0,
+          "winner": false,
+          "homeAway": "home",
+          "advance": null
+        },
+        {
+          "team": "Iran",
+          "abbr": "irn",
+          "logo": "https://a.espncdn.com/i/teamlogos/countries/500/irn.png",
+          "score": 0,
+          "winner": false,
+          "homeAway": "away",
+          "advance": null
+        }
+      ]
+    },
+    {
+      "id": "760450",
+      "date": "2026-06-21T22:00Z",
+      "round": "1",
+      "state": "pre",
+      "completed": false,
+      "detail": "Scheduled",
+      "competitors": [
+        {
+          "team": "Uruguay",
+          "abbr": "uru",
+          "logo": "https://a.espncdn.com/i/teamlogos/countries/500/uru.png",
+          "score": 0,
+          "winner": false,
+          "homeAway": "home",
+          "advance": null
+        },
+        {
+          "team": "Cape Verde",
+          "abbr": "cpv",
+          "logo": "https://a.espncdn.com/i/teamlogos/countries/500/cpv.png",
+          "score": 0,
+          "winner": false,
+          "homeAway": "away",
+          "advance": null
+        }
+      ]
+    },
+    {
+      "id": "760452",
+      "date": "2026-06-22T01:00Z",
+      "round": "1",
+      "state": "pre",
+      "completed": false,
+      "detail": "Scheduled",
+      "competitors": [
+        {
+          "team": "New Zealand",
+          "abbr": "nzl",
+          "logo": "https://a.espncdn.com/i/teamlogos/countries/500/nzl.png",
+          "score": 0,
+          "winner": false,
+          "homeAway": "home",
+          "advance": null
+        },
+        {
+          "team": "Egypt",
+          "abbr": "egy",
+          "logo": "https://a.espncdn.com/i/teamlogos/countries/500/egy.png",
+          "score": 0,
+          "winner": false,
+          "homeAway": "away",
+          "advance": null
+        }
+      ]
+    },
+    {
+      "id": "760456",
+      "date": "2026-06-22T17:00Z",
+      "round": "1",
+      "state": "pre",
+      "completed": false,
+      "detail": "Scheduled",
+      "competitors": [
+        {
+          "team": "Argentina",
+          "abbr": "arg",
+          "logo": "https://a.espncdn.com/i/teamlogos/countries/500/arg.png",
+          "score": 0,
+          "winner": false,
+          "homeAway": "home",
+          "advance": null
+        },
+        {
+          "team": "Austria",
+          "abbr": "aut",
+          "logo": "https://a.espncdn.com/i/teamlogos/countries/500/aut.png",
+          "score": 0,
+          "winner": false,
+          "homeAway": "away",
+          "advance": null
+        }
+      ]
+    },
+    {
+      "id": "760457",
+      "date": "2026-06-22T21:00Z",
+      "round": "1",
+      "state": "pre",
+      "completed": false,
+      "detail": "Scheduled",
+      "competitors": [
+        {
+          "team": "France",
+          "abbr": "fra",
+          "logo": "https://a.espncdn.com/i/teamlogos/countries/500/fra.png",
+          "score": 0,
+          "winner": false,
+          "homeAway": "home",
+          "advance": null
+        },
+        {
+          "team": "Iraq",
+          "abbr": "irq",
+          "logo": "https://a.espncdn.com/i/teamlogos/countries/500/irq.png",
+          "score": 0,
+          "winner": false,
+          "homeAway": "away",
+          "advance": null
+        }
+      ]
+    },
+    {
+      "id": "760454",
+      "date": "2026-06-23T00:00Z",
+      "round": "1",
+      "state": "pre",
+      "completed": false,
+      "detail": "Scheduled",
+      "competitors": [
+        {
+          "team": "Norway",
+          "abbr": "nor",
+          "logo": "https://a.espncdn.com/i/teamlogos/countries/500/nor.png",
+          "score": 0,
+          "winner": false,
+          "homeAway": "home",
+          "advance": null
+        },
+        {
+          "team": "Senegal",
+          "abbr": "sen",
+          "logo": "https://a.espncdn.com/i/teamlogos/countries/500/sen.png",
+          "score": 0,
+          "winner": false,
+          "homeAway": "away",
+          "advance": null
+        }
+      ]
+    },
+    {
+      "id": "760455",
+      "date": "2026-06-23T03:00Z",
+      "round": "1",
+      "state": "pre",
+      "completed": false,
+      "detail": "Scheduled",
+      "competitors": [
+        {
+          "team": "Jordan",
+          "abbr": "jor",
+          "logo": "https://a.espncdn.com/i/teamlogos/countries/500/jor.png",
+          "score": 0,
+          "winner": false,
+          "homeAway": "home",
+          "advance": null
+        },
+        {
+          "team": "Algeria",
+          "abbr": "alg",
+          "logo": "https://a.espncdn.com/i/teamlogos/countries/500/alg.png",
+          "score": 0,
+          "winner": false,
+          "homeAway": "away",
+          "advance": null
+        }
+      ]
+    },
+    {
+      "id": "760461",
+      "date": "2026-06-23T17:00Z",
+      "round": "1",
+      "state": "pre",
+      "completed": false,
+      "detail": "Scheduled",
+      "competitors": [
+        {
+          "team": "Portugal",
+          "abbr": "por",
+          "logo": "https://a.espncdn.com/i/teamlogos/countries/500/por.png",
+          "score": 0,
+          "winner": false,
+          "homeAway": "home",
+          "advance": null
+        },
+        {
+          "team": "Uzbekistan",
+          "abbr": "uzb",
+          "logo": "https://a.espncdn.com/i/teamlogos/countries/500/uzb.png",
+          "score": 0,
+          "winner": false,
+          "homeAway": "away",
+          "advance": null
+        }
+      ]
+    },
+    {
+      "id": "760458",
+      "date": "2026-06-23T20:00Z",
+      "round": "1",
+      "state": "pre",
+      "completed": false,
+      "detail": "Scheduled",
+      "competitors": [
+        {
+          "team": "England",
+          "abbr": "eng",
+          "logo": "https://a.espncdn.com/i/teamlogos/countries/500/eng.png",
+          "score": 0,
+          "winner": false,
+          "homeAway": "home",
+          "advance": null
+        },
+        {
+          "team": "Ghana",
+          "abbr": "gha",
+          "logo": "https://a.espncdn.com/i/teamlogos/countries/500/gha.png",
+          "score": 0,
+          "winner": false,
+          "homeAway": "away",
+          "advance": null
+        }
+      ]
+    },
+    {
+      "id": "760460",
+      "date": "2026-06-23T23:00Z",
+      "round": "1",
+      "state": "pre",
+      "completed": false,
+      "detail": "Scheduled",
+      "competitors": [
+        {
+          "team": "Panama",
+          "abbr": "pan",
+          "logo": "https://a.espncdn.com/i/teamlogos/countries/500/pan.png",
+          "score": 0,
+          "winner": false,
+          "homeAway": "home",
+          "advance": null
+        },
+        {
+          "team": "Croatia",
+          "abbr": "cro",
+          "logo": "https://a.espncdn.com/i/teamlogos/countries/500/cro.png",
+          "score": 0,
+          "winner": false,
+          "homeAway": "away",
+          "advance": null
+        }
+      ]
+    },
+    {
+      "id": "760459",
+      "date": "2026-06-24T02:00Z",
+      "round": "1",
+      "state": "pre",
+      "completed": false,
+      "detail": "Scheduled",
+      "competitors": [
+        {
+          "team": "Colombia",
+          "abbr": "col",
+          "logo": "https://a.espncdn.com/i/teamlogos/countries/500/col.png",
+          "score": 0,
+          "winner": false,
+          "homeAway": "home",
+          "advance": null
+        },
+        {
+          "team": "Congo DR",
+          "abbr": "cod",
+          "logo": "https://a.espncdn.com/i/teamlogos/countries/500/rdc.png",
+          "score": 0,
+          "winner": false,
+          "homeAway": "away",
+          "advance": null
+        }
+      ]
+    },
+    {
+      "id": "760462",
+      "date": "2026-06-24T19:00Z",
+      "round": "1",
+      "state": "pre",
+      "completed": false,
+      "detail": "Scheduled",
+      "competitors": [
+        {
+          "team": "Bosnia-Herzegovina",
+          "abbr": "bih",
+          "logo": "https://a.espncdn.com/i/teamlogos/countries/500/bih.png",
+          "score": 0,
+          "winner": false,
+          "homeAway": "home",
+          "advance": null
+        },
+        {
+          "team": "Qatar",
+          "abbr": "qat",
+          "logo": "https://a.espncdn.com/i/teamlogos/countries/500/qat.png",
+          "score": 0,
+          "winner": false,
+          "homeAway": "away",
+          "advance": null
+        }
+      ]
+    },
+    {
+      "id": "760463",
+      "date": "2026-06-24T19:00Z",
+      "round": "1",
+      "state": "pre",
+      "completed": false,
+      "detail": "Scheduled",
+      "competitors": [
+        {
+          "team": "Switzerland",
+          "abbr": "sui",
+          "logo": "https://a.espncdn.com/i/teamlogos/countries/500/sui.png",
+          "score": 0,
+          "winner": false,
+          "homeAway": "home",
+          "advance": null
+        },
+        {
+          "team": "Canada",
+          "abbr": "can",
+          "logo": "https://a.espncdn.com/i/teamlogos/countries/500/can.png",
+          "score": 0,
+          "winner": false,
+          "homeAway": "away",
+          "advance": null
+        }
+      ]
+    },
+    {
+      "id": "760464",
+      "date": "2026-06-24T22:00Z",
+      "round": "1",
+      "state": "pre",
+      "completed": false,
+      "detail": "Scheduled",
+      "competitors": [
+        {
+          "team": "Morocco",
+          "abbr": "mar",
+          "logo": "https://a.espncdn.com/i/teamlogos/countries/500/mar.png",
+          "score": 0,
+          "winner": false,
+          "homeAway": "home",
+          "advance": null
+        },
+        {
+          "team": "Haiti",
+          "abbr": "hai",
+          "logo": "https://a.espncdn.com/i/teamlogos/countries/500/hai.png",
+          "score": 0,
+          "winner": false,
+          "homeAway": "away",
+          "advance": null
+        }
+      ]
+    },
+    {
+      "id": "760465",
+      "date": "2026-06-24T22:00Z",
+      "round": "1",
+      "state": "pre",
+      "completed": false,
+      "detail": "Scheduled",
+      "competitors": [
+        {
+          "team": "Scotland",
+          "abbr": "sco",
+          "logo": "https://a.espncdn.com/i/teamlogos/countries/500/sco.png",
+          "score": 0,
+          "winner": false,
+          "homeAway": "home",
+          "advance": null
+        },
+        {
+          "team": "Brazil",
+          "abbr": "bra",
+          "logo": "https://a.espncdn.com/i/teamlogos/countries/500/bra.png",
+          "score": 0,
+          "winner": false,
+          "homeAway": "away",
+          "advance": null
+        }
+      ]
+    },
+    {
+      "id": "760467",
+      "date": "2026-06-25T01:00Z",
+      "round": "1",
+      "state": "pre",
+      "completed": false,
+      "detail": "Scheduled",
+      "competitors": [
+        {
+          "team": "Czechia",
+          "abbr": "cze",
+          "logo": "https://a.espncdn.com/i/teamlogos/countries/500/cze.png",
+          "score": 0,
+          "winner": false,
+          "homeAway": "home",
+          "advance": null
+        },
+        {
+          "team": "Mexico",
+          "abbr": "mex",
+          "logo": "https://a.espncdn.com/i/teamlogos/countries/500/mex.png",
+          "score": 0,
+          "winner": false,
+          "homeAway": "away",
+          "advance": null
+        }
+      ]
+    },
+    {
+      "id": "760466",
+      "date": "2026-06-25T01:00Z",
+      "round": "1",
+      "state": "pre",
+      "completed": false,
+      "detail": "Scheduled",
+      "competitors": [
+        {
+          "team": "South Africa",
+          "abbr": "rsa",
+          "logo": "https://a.espncdn.com/i/teamlogos/countries/500/rsa.png",
+          "score": 0,
+          "winner": false,
+          "homeAway": "home",
+          "advance": null
+        },
+        {
+          "team": "South Korea",
+          "abbr": "kor",
+          "logo": "https://a.espncdn.com/i/teamlogos/countries/500/kors.png",
+          "score": 0,
+          "winner": false,
+          "homeAway": "away",
+          "advance": null
+        }
+      ]
+    },
+    {
+      "id": "760473",
+      "date": "2026-06-25T20:00Z",
+      "round": "1",
+      "state": "pre",
+      "completed": false,
+      "detail": "Scheduled",
+      "competitors": [
+        {
+          "team": "Curaçao",
+          "abbr": "cuw",
+          "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/11678.png",
+          "score": 0,
+          "winner": false,
+          "homeAway": "home",
+          "advance": null
+        },
+        {
+          "team": "Ivory Coast",
+          "abbr": "civ",
+          "logo": "https://a.espncdn.com/i/teamlogos/countries/500/civ.png",
+          "score": 0,
+          "winner": false,
+          "homeAway": "away",
+          "advance": null
+        }
+      ]
+    },
+    {
+      "id": "760468",
+      "date": "2026-06-25T20:00Z",
+      "round": "1",
+      "state": "pre",
+      "completed": false,
+      "detail": "Scheduled",
+      "competitors": [
+        {
+          "team": "Ecuador",
+          "abbr": "ecu",
+          "logo": "https://a.espncdn.com/i/teamlogos/countries/500/ecu.png",
+          "score": 0,
+          "winner": false,
+          "homeAway": "home",
+          "advance": null
+        },
+        {
+          "team": "Germany",
+          "abbr": "ger",
+          "logo": "https://a.espncdn.com/i/teamlogos/countries/500/ger.png",
+          "score": 0,
+          "winner": false,
+          "homeAway": "away",
+          "advance": null
+        }
+      ]
+    },
+    {
+      "id": "760471",
+      "date": "2026-06-25T23:00Z",
+      "round": "1",
+      "state": "pre",
+      "completed": false,
+      "detail": "Scheduled",
+      "competitors": [
+        {
+          "team": "Japan",
+          "abbr": "jpn",
+          "logo": "https://a.espncdn.com/i/teamlogos/countries/500/jpn.png",
+          "score": 0,
+          "winner": false,
+          "homeAway": "home",
+          "advance": null
+        },
+        {
+          "team": "Sweden",
+          "abbr": "swe",
+          "logo": "https://a.espncdn.com/i/teamlogos/countries/500/swe.png",
+          "score": 0,
+          "winner": false,
+          "homeAway": "away",
+          "advance": null
+        }
+      ]
+    },
+    {
+      "id": "760472",
+      "date": "2026-06-25T23:00Z",
+      "round": "1",
+      "state": "pre",
+      "completed": false,
+      "detail": "Scheduled",
+      "competitors": [
+        {
+          "team": "Tunisia",
+          "abbr": "tun",
+          "logo": "https://a.espncdn.com/i/teamlogos/countries/500/tun.png",
+          "score": 0,
+          "winner": false,
+          "homeAway": "home",
+          "advance": null
+        },
+        {
+          "team": "Netherlands",
+          "abbr": "ned",
+          "logo": "https://a.espncdn.com/i/teamlogos/countries/500/ned.png",
+          "score": 0,
+          "winner": false,
+          "homeAway": "away",
+          "advance": null
+        }
+      ]
+    },
+    {
+      "id": "760469",
+      "date": "2026-06-26T02:00Z",
+      "round": "1",
+      "state": "pre",
+      "completed": false,
+      "detail": "Scheduled",
+      "competitors": [
+        {
+          "team": "Paraguay",
+          "abbr": "par",
+          "logo": "https://a.espncdn.com/i/teamlogos/countries/500/par.png",
+          "score": 0,
+          "winner": false,
+          "homeAway": "home",
+          "advance": null
+        },
+        {
+          "team": "Australia",
+          "abbr": "aus",
+          "logo": "https://a.espncdn.com/i/teamlogos/countries/500/aus.png",
+          "score": 0,
+          "winner": false,
+          "homeAway": "away",
+          "advance": null
+        }
+      ]
+    },
+    {
+      "id": "760470",
+      "date": "2026-06-26T02:00Z",
+      "round": "1",
+      "state": "pre",
+      "completed": false,
+      "detail": "Scheduled",
+      "competitors": [
+        {
+          "team": "Türkiye",
+          "abbr": "tur",
+          "logo": "https://a.espncdn.com/i/teamlogos/countries/500/tur.png",
+          "score": 0,
+          "winner": false,
+          "homeAway": "home",
+          "advance": null
+        },
+        {
+          "team": "United States",
+          "abbr": "usa",
+          "logo": "https://a.espncdn.com/i/teamlogos/countries/500/usa.png",
+          "score": 0,
+          "winner": false,
+          "homeAway": "away",
+          "advance": null
+        }
+      ]
+    },
+    {
+      "id": "760475",
+      "date": "2026-06-26T19:00Z",
+      "round": "1",
+      "state": "pre",
+      "completed": false,
+      "detail": "Scheduled",
+      "competitors": [
+        {
+          "team": "Norway",
+          "abbr": "nor",
+          "logo": "https://a.espncdn.com/i/teamlogos/countries/500/nor.png",
+          "score": 0,
+          "winner": false,
+          "homeAway": "home",
+          "advance": null
+        },
+        {
+          "team": "France",
+          "abbr": "fra",
+          "logo": "https://a.espncdn.com/i/teamlogos/countries/500/fra.png",
+          "score": 0,
+          "winner": false,
+          "homeAway": "away",
+          "advance": null
+        }
+      ]
+    },
+    {
+      "id": "760474",
+      "date": "2026-06-26T19:00Z",
+      "round": "1",
+      "state": "pre",
+      "completed": false,
+      "detail": "Scheduled",
+      "competitors": [
+        {
+          "team": "Senegal",
+          "abbr": "sen",
+          "logo": "https://a.espncdn.com/i/teamlogos/countries/500/sen.png",
+          "score": 0,
+          "winner": false,
+          "homeAway": "home",
+          "advance": null
+        },
+        {
+          "team": "Iraq",
+          "abbr": "irq",
+          "logo": "https://a.espncdn.com/i/teamlogos/countries/500/irq.png",
+          "score": 0,
+          "winner": false,
+          "homeAway": "away",
+          "advance": null
+        }
+      ]
+    },
+    {
+      "id": "760478",
+      "date": "2026-06-27T00:00Z",
+      "round": "1",
+      "state": "pre",
+      "completed": false,
+      "detail": "Scheduled",
+      "competitors": [
+        {
+          "team": "Cape Verde",
+          "abbr": "cpv",
+          "logo": "https://a.espncdn.com/i/teamlogos/countries/500/cpv.png",
+          "score": 0,
+          "winner": false,
+          "homeAway": "home",
+          "advance": null
+        },
+        {
+          "team": "Saudi Arabia",
+          "abbr": "ksa",
+          "logo": "https://a.espncdn.com/i/teamlogos/countries/500/ksa.png",
+          "score": 0,
+          "winner": false,
+          "homeAway": "away",
+          "advance": null
+        }
+      ]
+    },
+    {
+      "id": "760479",
+      "date": "2026-06-27T00:00Z",
+      "round": "1",
+      "state": "pre",
+      "completed": false,
+      "detail": "Scheduled",
+      "competitors": [
+        {
+          "team": "Uruguay",
+          "abbr": "uru",
+          "logo": "https://a.espncdn.com/i/teamlogos/countries/500/uru.png",
+          "score": 0,
+          "winner": false,
+          "homeAway": "home",
+          "advance": null
+        },
+        {
+          "team": "Spain",
+          "abbr": "esp",
+          "logo": "https://a.espncdn.com/i/teamlogos/countries/500/esp.png",
+          "score": 0,
+          "winner": false,
+          "homeAway": "away",
+          "advance": null
+        }
+      ]
+    },
+    {
+      "id": "760476",
+      "date": "2026-06-27T03:00Z",
+      "round": "1",
+      "state": "pre",
+      "completed": false,
+      "detail": "Scheduled",
+      "competitors": [
+        {
+          "team": "Egypt",
+          "abbr": "egy",
+          "logo": "https://a.espncdn.com/i/teamlogos/countries/500/egy.png",
+          "score": 0,
+          "winner": false,
+          "homeAway": "home",
+          "advance": null
+        },
+        {
+          "team": "Iran",
+          "abbr": "irn",
+          "logo": "https://a.espncdn.com/i/teamlogos/countries/500/irn.png",
+          "score": 0,
+          "winner": false,
+          "homeAway": "away",
+          "advance": null
+        }
+      ]
+    },
+    {
+      "id": "760477",
+      "date": "2026-06-27T03:00Z",
+      "round": "1",
+      "state": "pre",
+      "completed": false,
+      "detail": "Scheduled",
+      "competitors": [
+        {
+          "team": "New Zealand",
+          "abbr": "nzl",
+          "logo": "https://a.espncdn.com/i/teamlogos/countries/500/nzl.png",
+          "score": 0,
+          "winner": false,
+          "homeAway": "home",
+          "advance": null
+        },
+        {
+          "team": "Belgium",
+          "abbr": "bel",
+          "logo": "https://a.espncdn.com/i/teamlogos/countries/500/bel.png",
+          "score": 0,
+          "winner": false,
+          "homeAway": "away",
+          "advance": null
+        }
+      ]
+    },
+    {
+      "id": "760480",
+      "date": "2026-06-27T21:00Z",
+      "round": "1",
+      "state": "pre",
+      "completed": false,
+      "detail": "Scheduled",
+      "competitors": [
+        {
+          "team": "Croatia",
+          "abbr": "cro",
+          "logo": "https://a.espncdn.com/i/teamlogos/countries/500/cro.png",
+          "score": 0,
+          "winner": false,
+          "homeAway": "home",
+          "advance": null
+        },
+        {
+          "team": "Ghana",
+          "abbr": "gha",
+          "logo": "https://a.espncdn.com/i/teamlogos/countries/500/gha.png",
+          "score": 0,
+          "winner": false,
+          "homeAway": "away",
+          "advance": null
+        }
+      ]
+    },
+    {
+      "id": "760485",
+      "date": "2026-06-27T21:00Z",
+      "round": "1",
+      "state": "pre",
+      "completed": false,
+      "detail": "Scheduled",
+      "competitors": [
+        {
+          "team": "Panama",
+          "abbr": "pan",
+          "logo": "https://a.espncdn.com/i/teamlogos/countries/500/pan.png",
+          "score": 0,
+          "winner": false,
+          "homeAway": "home",
+          "advance": null
+        },
+        {
+          "team": "England",
+          "abbr": "eng",
+          "logo": "https://a.espncdn.com/i/teamlogos/countries/500/eng.png",
+          "score": 0,
+          "winner": false,
+          "homeAway": "away",
+          "advance": null
+        }
+      ]
+    },
+    {
+      "id": "760481",
+      "date": "2026-06-27T23:30Z",
+      "round": "1",
+      "state": "pre",
+      "completed": false,
+      "detail": "Scheduled",
+      "competitors": [
+        {
+          "team": "Colombia",
+          "abbr": "col",
+          "logo": "https://a.espncdn.com/i/teamlogos/countries/500/col.png",
+          "score": 0,
+          "winner": false,
+          "homeAway": "home",
+          "advance": null
+        },
+        {
+          "team": "Portugal",
+          "abbr": "por",
+          "logo": "https://a.espncdn.com/i/teamlogos/countries/500/por.png",
+          "score": 0,
+          "winner": false,
+          "homeAway": "away",
+          "advance": null
+        }
+      ]
+    },
+    {
+      "id": "760482",
+      "date": "2026-06-27T23:30Z",
+      "round": "1",
+      "state": "pre",
+      "completed": false,
+      "detail": "Scheduled",
+      "competitors": [
+        {
+          "team": "Congo DR",
+          "abbr": "cod",
+          "logo": "https://a.espncdn.com/i/teamlogos/countries/500/rdc.png",
+          "score": 0,
+          "winner": false,
+          "homeAway": "home",
+          "advance": null
+        },
+        {
+          "team": "Uzbekistan",
+          "abbr": "uzb",
+          "logo": "https://a.espncdn.com/i/teamlogos/countries/500/uzb.png",
+          "score": 0,
+          "winner": false,
+          "homeAway": "away",
+          "advance": null
+        }
+      ]
+    },
+    {
+      "id": "760484",
+      "date": "2026-06-28T02:00Z",
+      "round": "1",
+      "state": "pre",
+      "completed": false,
+      "detail": "Scheduled",
+      "competitors": [
+        {
+          "team": "Algeria",
+          "abbr": "alg",
+          "logo": "https://a.espncdn.com/i/teamlogos/countries/500/alg.png",
+          "score": 0,
+          "winner": false,
+          "homeAway": "home",
+          "advance": null
+        },
+        {
+          "team": "Austria",
+          "abbr": "aut",
+          "logo": "https://a.espncdn.com/i/teamlogos/countries/500/aut.png",
+          "score": 0,
+          "winner": false,
+          "homeAway": "away",
+          "advance": null
+        }
+      ]
+    },
+    {
+      "id": "760483",
+      "date": "2026-06-28T02:00Z",
+      "round": "1",
+      "state": "pre",
+      "completed": false,
+      "detail": "Scheduled",
+      "competitors": [
+        {
+          "team": "Jordan",
+          "abbr": "jor",
+          "logo": "https://a.espncdn.com/i/teamlogos/countries/500/jor.png",
+          "score": 0,
+          "winner": false,
+          "homeAway": "home",
+          "advance": null
+        },
+        {
+          "team": "Argentina",
+          "abbr": "arg",
+          "logo": "https://a.espncdn.com/i/teamlogos/countries/500/arg.png",
+          "score": 0,
+          "winner": false,
+          "homeAway": "away",
+          "advance": null
+        }
+      ]
+    },
+    {
+      "id": "760486",
+      "date": "2026-06-28T19:00Z",
+      "round": "1",
+      "state": "pre",
+      "completed": false,
+      "detail": "Scheduled",
+      "competitors": [
+        {
+          "team": "Group A 2nd Place",
+          "abbr": "2a",
+          "logo": "",
+          "score": 0,
+          "winner": false,
+          "homeAway": "home",
+          "advance": null
+        },
+        {
+          "team": "Group B 2nd Place",
+          "abbr": "2b",
+          "logo": "",
+          "score": 0,
+          "winner": false,
+          "homeAway": "away",
+          "advance": null
         }
       ]
     }
   ],
   "teams": {
-    "Spain": {
-      "abbr": "esp",
-      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/esp.png",
+    "Mexico": {
+      "abbr": "mex",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/mex.png",
       "in_tournament": true,
       "stage_index": 0,
       "stage": "Group",
       "status": "alive"
     },
-    "Belgium": {
-      "abbr": "bel",
-      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/bel.png",
+    "South Africa": {
+      "abbr": "rsa",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/rsa.png",
+      "in_tournament": true,
+      "stage_index": 0,
+      "stage": "Group",
+      "status": "alive"
+    },
+    "South Korea": {
+      "abbr": "kor",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/kors.png",
+      "in_tournament": true,
+      "stage_index": 0,
+      "stage": "Group",
+      "status": "alive"
+    },
+    "Czechia": {
+      "abbr": "cze",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/cze.png",
+      "in_tournament": true,
+      "stage_index": 0,
+      "stage": "Group",
+      "status": "alive"
+    },
+    "Canada": {
+      "abbr": "can",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/can.png",
+      "in_tournament": true,
+      "stage_index": 0,
+      "stage": "Group",
+      "status": "alive"
+    },
+    "Bosnia-Herzegovina": {
+      "abbr": "bih",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/bih.png",
       "in_tournament": true,
       "stage_index": 0,
       "stage": "Group",
@@ -90,105 +3212,25 @@
       "stage": "Group",
       "status": "alive"
     },
-    "Morocco": {
-      "abbr": "mar",
-      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/mar.png",
+    "Paraguay": {
+      "abbr": "par",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/par.png",
       "in_tournament": true,
       "stage_index": 0,
       "stage": "Group",
       "status": "alive"
     },
-    "France": {
-      "abbr": "fra",
-      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/fra.png",
+    "Qatar": {
+      "abbr": "qat",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/qat.png",
       "in_tournament": true,
       "stage_index": 0,
       "stage": "Group",
       "status": "alive"
     },
-    "Netherlands": {
-      "abbr": "ned",
-      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/ned.png",
-      "in_tournament": true,
-      "stage_index": 0,
-      "stage": "Group",
-      "status": "alive"
-    },
-    "Australia": {
-      "abbr": "aus",
-      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/aus.png",
-      "in_tournament": true,
-      "stage_index": 0,
-      "stage": "Group",
-      "status": "alive"
-    },
-    "Iran": {
-      "abbr": "irn",
-      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/irn.png",
-      "in_tournament": true,
-      "stage_index": 0,
-      "stage": "Group",
-      "status": "alive"
-    },
-    "Portugal": {
-      "abbr": "por",
-      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/por.png",
-      "in_tournament": true,
-      "stage_index": 0,
-      "stage": "Group",
-      "status": "alive"
-    },
-    "Germany": {
-      "abbr": "ger",
-      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/ger.png",
-      "in_tournament": true,
-      "stage_index": 0,
-      "stage": "Group",
-      "status": "alive"
-    },
-    "Norway": {
-      "abbr": "nor",
-      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/nor.png",
-      "in_tournament": true,
-      "stage_index": 0,
-      "stage": "Group",
-      "status": "alive"
-    },
-    "Austria": {
-      "abbr": "aut",
-      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/aut.png",
-      "in_tournament": true,
-      "stage_index": 0,
-      "stage": "Group",
-      "status": "alive"
-    },
-    "England": {
-      "abbr": "eng",
-      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/eng.png",
-      "in_tournament": true,
-      "stage_index": 0,
-      "stage": "Group",
-      "status": "alive"
-    },
-    "Japan": {
-      "abbr": "jpn",
-      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/jpn.png",
-      "in_tournament": true,
-      "stage_index": 0,
-      "stage": "Group",
-      "status": "alive"
-    },
-    "Croatia": {
-      "abbr": "cro",
-      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/cro.png",
-      "in_tournament": true,
-      "stage_index": 0,
-      "stage": "Group",
-      "status": "alive"
-    },
-    "Colombia": {
-      "abbr": "col",
-      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/col.png",
+    "Switzerland": {
+      "abbr": "sui",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/sui.png",
       "in_tournament": true,
       "stage_index": 0,
       "stage": "Group",
@@ -202,9 +3244,145 @@
       "stage": "Group",
       "status": "alive"
     },
-    "Argentina": {
-      "abbr": "arg",
-      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/arg.png",
+    "Morocco": {
+      "abbr": "mar",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/mar.png",
+      "in_tournament": true,
+      "stage_index": 0,
+      "stage": "Group",
+      "status": "alive"
+    },
+    "Haiti": {
+      "abbr": "hai",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/hai.png",
+      "in_tournament": true,
+      "stage_index": 0,
+      "stage": "Group",
+      "status": "alive"
+    },
+    "Scotland": {
+      "abbr": "sco",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/sco.png",
+      "in_tournament": true,
+      "stage_index": 0,
+      "stage": "Group",
+      "status": "alive"
+    },
+    "Australia": {
+      "abbr": "aus",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/aus.png",
+      "in_tournament": true,
+      "stage_index": 0,
+      "stage": "Group",
+      "status": "alive"
+    },
+    "Türkiye": {
+      "abbr": "tur",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/tur.png",
+      "in_tournament": true,
+      "stage_index": 0,
+      "stage": "Group",
+      "status": "alive"
+    },
+    "Germany": {
+      "abbr": "ger",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/ger.png",
+      "in_tournament": true,
+      "stage_index": 0,
+      "stage": "Group",
+      "status": "alive"
+    },
+    "Curaçao": {
+      "abbr": "cuw",
+      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/11678.png",
+      "in_tournament": true,
+      "stage_index": 0,
+      "stage": "Group",
+      "status": "alive"
+    },
+    "Netherlands": {
+      "abbr": "ned",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/ned.png",
+      "in_tournament": true,
+      "stage_index": 0,
+      "stage": "Group",
+      "status": "alive"
+    },
+    "Japan": {
+      "abbr": "jpn",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/jpn.png",
+      "in_tournament": true,
+      "stage_index": 0,
+      "stage": "Group",
+      "status": "alive"
+    },
+    "Ivory Coast": {
+      "abbr": "civ",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/civ.png",
+      "in_tournament": true,
+      "stage_index": 0,
+      "stage": "Group",
+      "status": "alive"
+    },
+    "Ecuador": {
+      "abbr": "ecu",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/ecu.png",
+      "in_tournament": true,
+      "stage_index": 0,
+      "stage": "Group",
+      "status": "alive"
+    },
+    "Sweden": {
+      "abbr": "swe",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/swe.png",
+      "in_tournament": true,
+      "stage_index": 0,
+      "stage": "Group",
+      "status": "alive"
+    },
+    "Tunisia": {
+      "abbr": "tun",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/tun.png",
+      "in_tournament": true,
+      "stage_index": 0,
+      "stage": "Group",
+      "status": "alive"
+    },
+    "Spain": {
+      "abbr": "esp",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/esp.png",
+      "in_tournament": true,
+      "stage_index": 0,
+      "stage": "Group",
+      "status": "alive"
+    },
+    "Cape Verde": {
+      "abbr": "cpv",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/cpv.png",
+      "in_tournament": true,
+      "stage_index": 0,
+      "stage": "Group",
+      "status": "alive"
+    },
+    "Belgium": {
+      "abbr": "bel",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/bel.png",
+      "in_tournament": true,
+      "stage_index": 0,
+      "stage": "Group",
+      "status": "alive"
+    },
+    "Egypt": {
+      "abbr": "egy",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/egy.png",
+      "in_tournament": true,
+      "stage_index": 0,
+      "stage": "Group",
+      "status": "alive"
+    },
+    "Saudi Arabia": {
+      "abbr": "ksa",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/ksa.png",
       "in_tournament": true,
       "stage_index": 0,
       "stage": "Group",
@@ -218,12 +3396,164 @@
       "stage": "Group",
       "status": "alive"
     },
+    "Iran": {
+      "abbr": "irn",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/irn.png",
+      "in_tournament": true,
+      "stage_index": 0,
+      "stage": "Group",
+      "status": "alive"
+    },
+    "New Zealand": {
+      "abbr": "nzl",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/nzl.png",
+      "in_tournament": true,
+      "stage_index": 0,
+      "stage": "Group",
+      "status": "alive"
+    },
+    "France": {
+      "abbr": "fra",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/fra.png",
+      "in_tournament": true,
+      "stage_index": 0,
+      "stage": "Group",
+      "status": "alive"
+    },
+    "Senegal": {
+      "abbr": "sen",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/sen.png",
+      "in_tournament": true,
+      "stage_index": 0,
+      "stage": "Group",
+      "status": "alive"
+    },
+    "Iraq": {
+      "abbr": "irq",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/irq.png",
+      "in_tournament": true,
+      "stage_index": 0,
+      "stage": "Group",
+      "status": "alive"
+    },
+    "Norway": {
+      "abbr": "nor",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/nor.png",
+      "in_tournament": true,
+      "stage_index": 0,
+      "stage": "Group",
+      "status": "alive"
+    },
+    "Argentina": {
+      "abbr": "arg",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/arg.png",
+      "in_tournament": true,
+      "stage_index": 0,
+      "stage": "Group",
+      "status": "alive"
+    },
+    "Algeria": {
+      "abbr": "alg",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/alg.png",
+      "in_tournament": true,
+      "stage_index": 0,
+      "stage": "Group",
+      "status": "alive"
+    },
+    "Austria": {
+      "abbr": "aut",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/aut.png",
+      "in_tournament": true,
+      "stage_index": 0,
+      "stage": "Group",
+      "status": "alive"
+    },
+    "Jordan": {
+      "abbr": "jor",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/jor.png",
+      "in_tournament": true,
+      "stage_index": 0,
+      "stage": "Group",
+      "status": "alive"
+    },
+    "Portugal": {
+      "abbr": "por",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/por.png",
+      "in_tournament": true,
+      "stage_index": 0,
+      "stage": "Group",
+      "status": "alive"
+    },
+    "Congo DR": {
+      "abbr": "cod",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/rdc.png",
+      "in_tournament": true,
+      "stage_index": 0,
+      "stage": "Group",
+      "status": "alive"
+    },
+    "England": {
+      "abbr": "eng",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/eng.png",
+      "in_tournament": true,
+      "stage_index": 0,
+      "stage": "Group",
+      "status": "alive"
+    },
+    "Croatia": {
+      "abbr": "cro",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/cro.png",
+      "in_tournament": true,
+      "stage_index": 0,
+      "stage": "Group",
+      "status": "alive"
+    },
+    "Ghana": {
+      "abbr": "gha",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/gha.png",
+      "in_tournament": true,
+      "stage_index": 0,
+      "stage": "Group",
+      "status": "alive"
+    },
+    "Panama": {
+      "abbr": "pan",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/pan.png",
+      "in_tournament": true,
+      "stage_index": 0,
+      "stage": "Group",
+      "status": "alive"
+    },
     "Uzbekistan": {
       "abbr": "uzb",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/uzb.png",
       "in_tournament": true,
       "stage_index": 0,
       "stage": "Group",
+      "status": "alive"
+    },
+    "Colombia": {
+      "abbr": "col",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/col.png",
+      "in_tournament": true,
+      "stage_index": 0,
+      "stage": "Group",
+      "status": "alive"
+    },
+    "Group A 2nd Place": {
+      "abbr": "2a",
+      "logo": null,
+      "in_tournament": true,
+      "stage_index": 1,
+      "stage": "Round of 32",
+      "status": "alive"
+    },
+    "Group B 2nd Place": {
+      "abbr": "2b",
+      "logo": null,
+      "in_tournament": true,
+      "stage_index": 1,
+      "stage": "Round of 32",
       "status": "alive"
     }
   }
