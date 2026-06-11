@@ -79,6 +79,8 @@
   table.lb tr.first td.rank { color:var(--accent); font-size:16px; }
   table.lb td.player { font-weight:700; white-space:nowrap; }
   table.lb td.best { font-weight:700; }
+  table.lb td.win-odds { color:var(--accent); font-weight:800; font-variant-numeric:tabular-nums; }
+  table.lb tr.eliminated td.win-odds { color:var(--muted); font-weight:600; }
   table.lb tr.eliminated { opacity:.5; }
 
   .pill {
@@ -250,6 +252,20 @@
   function esc(s){ return (s==null?"":String(s)).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c])); }
   function flag(t){ return t && t.logo ? `<img src="${esc(t.logo)}" alt="" onerror="this.style.display='none'">` : ""; }
 
+  // Kick-off time in New Zealand time (Pacific/Auckland), e.g. "Fri 12 Jun, 7:00 am".
+  function fmtNZ(iso){
+    if(!iso) return "";
+    try{
+      return new Date(iso).toLocaleString("en-NZ",{
+        timeZone:"Pacific/Auckland", weekday:"short", day:"numeric",
+        month:"short", hour:"numeric", minute:"2-digit", hour12:true
+      });
+    }catch{ return ""; }
+  }
+  function fmtPercent(p){
+    return (typeof p==="number" && p>0) ? `${(p*100).toFixed(1)}%` : null;
+  }
+
   // owner lookup: team name -> "Player"
   function ownerOf(team, picks){
     const ps = (picks.team_picks && picks.team_picks[team]) || [];
@@ -331,14 +347,18 @@
 
   function renderTeamPicks(data, picks){
     const teams = data.teams || {};
-    const head = `<thead><tr><th>Team</th><th>Owner</th><th>Status</th></tr></thead>`;
+    // Only show the Win % column if the odds feed has populated it.
+    const hasOdds = Object.values(teams).some(t => typeof t.win_prob === "number");
+    const oddsHead = hasOdds ? `<th class="num">Win cup</th>` : "";
+    const head = `<thead><tr><th>Team</th><th>Owner</th>${oddsHead}<th>Status</th></tr></thead>`;
     const entries = Object.entries(picks.team_picks||{});
-    // sort: champion, then by stage desc, alive before out, then name
+    // sort: champion, then by win % / stage desc, alive before out, then name
     entries.sort((a,b)=>{
       const ta=teams[a[0]]||{stage_index:0,status:"out"}, tb=teams[b[0]]||{stage_index:0,status:"out"};
       const av=ta.status==="out"?-1:(ta.status==="champion"?7:ta.stage_index);
       const bv=tb.status==="out"?-1:(tb.status==="champion"?7:tb.stage_index);
-      return (bv-av) || a[0].localeCompare(b[0]);
+      const wp=(tb.win_prob||0)-(ta.win_prob||0);
+      return (bv-av) || (wp) || a[0].localeCompare(b[0]);
     });
     const body = entries.map(([team,owners])=>{
       const t = teams[team];
@@ -346,9 +366,12 @@
       const fl = (t&&t.logo)?`<img src="${esc(t.logo)}" style="width:16px;height:16px;vertical-align:middle;margin-right:6px;border-radius:2px" onerror="this.style.display='none'">`:"";
       const st = !t ? pill(0,true) : pill(t.stage_index||0, t.status==="out");
       const own = owners.map(o=>o.player).join(" / ");
+      const wpct = (t && !out) ? fmtPercent(t.win_prob) : null;
+      const oddsCell = hasOdds ? `<td class="num win-odds">${wpct || "—"}</td>` : "";
       return `<tr class="${out?'eliminated':''}">
         <td class="player">${fl}${esc(team)}</td>
         <td>${esc(own)}</td>
+        ${oddsCell}
         <td>${st}</td>
       </tr>`;
     }).join("");
@@ -371,7 +394,9 @@
   function koMatch(ev, picks, isFinal){
     const cs = ev.competitors||[];
     const a = cs[0]||{}, b = cs[1]||{};
-    let status = ev.detail||"";
+    // Before kick-off show the NZ start time; once live/finished show the status.
+    const nz = fmtNZ(ev.date);
+    let status = (ev.state==="pre" && nz) ? `${nz} NZT` : (ev.detail||(nz?`${nz} NZT`:""));
     return `<div class="match ${isFinal?'fin':''}">
       ${koRow(a,b,picks)}
       ${koRow(b,a,picks)}
@@ -416,9 +441,26 @@
   }
 
   // ---------------- Groups ----------------
+  function fixtureRow(ev, picks){
+    const cs = ev.competitors||[]; const a=cs[0]||{}, b=cs[1]||{};
+    const played = ev.completed || ev.state==="in";
+    const nz = fmtNZ(ev.date);
+    const mid = played
+      ? `<span class="score">${a.score??0}–${b.score??0}</span>${ev.state==="in"?`<div style="color:var(--win)">${esc(ev.detail||"Live")}</div>`:""}`
+      : (nz ? `<div>${esc(nz)}</div><div style="opacity:.7">NZT</div>` : `<div>TBD</div>`);
+    const oa=ownerOf(a.team,picks), ob=ownerOf(b.team,picks);
+    return `<div class="fx">
+      <div class="h"><span>${esc(a.team||"TBD")}${oa?` <span class="owner">${esc(oa)}</span>`:""}</span>${flag(a)}</div>
+      <div class="mid">${mid}</div>
+      <div class="a">${flag(b)}<span>${esc(b.team||"TBD")}${ob?` <span class="owner">${esc(ob)}</span>`:""}</span></div>
+    </div>`;
+  }
+
   function renderGroups(data, picks){
     const area = document.getElementById("groups-area");
     const groups = data.groups || [];
+    let html = "";
+
     if(groups.length){
       const grid = groups.map(g=>{
         const rows = (g.teams||[]).map((t,i)=>{
@@ -436,28 +478,17 @@
           <table class="gt"><thead><tr><th style="text-align:left">Team</th><th>P</th><th>W</th><th>D</th><th>L</th><th>GD</th><th>Pts</th></tr></thead>
           <tbody>${rows}</tbody></table></div>`;
       }).join("");
-      area.innerHTML = `<div class="groups-grid">${grid}</div>`;
-      return;
+      html += `<div class="groups-grid">${grid}</div>`;
     }
-    // Fallback: fixtures list (pre-tournament / before standings populate)
+
+    // Fixtures (with NZ kick-off times) — always shown so game times are visible.
     const fx = (data.group_fixtures||[]).slice().sort((a,b)=> (a.date||"").localeCompare(b.date||""));
-    if(!fx.length){
-      area.innerHTML = `<div class="empty-note">⚽ Group fixtures and tables will appear here once the live feed updates.</div>`;
-      return;
+    if(fx.length){
+      html += `<h2 style="margin:26px 0 12px;font-size:14px;letter-spacing:1.5px;text-transform:uppercase;color:var(--accent)">Group Fixtures · NZ time</h2>`;
+      html += `<div class="fixtures">${fx.map(ev=>fixtureRow(ev,picks)).join("")}</div>`;
     }
-    const list = fx.map(ev=>{
-      const cs = ev.competitors||[]; const a=cs[0]||{},b=cs[1]||{};
-      const played = ev.completed || ev.state==="in";
-      const mid = played ? `<span class="score">${a.score??0}–${b.score??0}</span>` :
-        `<div>${esc((ev.date||"").slice(5,10).replace("-","/"))}</div>`;
-      const oa=ownerOf(a.team,picks), ob=ownerOf(b.team,picks);
-      return `<div class="fx">
-        <div class="h"><span>${esc(a.team||"TBD")}${oa?` <span class="owner">${esc(oa)}</span>`:""}</span>${flag(a)}</div>
-        <div class="mid">${mid}</div>
-        <div class="a">${flag(b)}<span>${esc(b.team||"TBD")}${ob?` <span class="owner">${esc(ob)}</span>`:""}</span></div>
-      </div>`;
-    }).join("");
-    area.innerHTML = `<div class="fixtures">${list}</div>`;
+
+    area.innerHTML = html || `<div class="empty-note">⚽ Group fixtures and tables will appear here once the live feed updates.</div>`;
   }
 
   // ---------------- View toggle ----------------
