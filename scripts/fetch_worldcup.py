@@ -17,6 +17,7 @@ leaderboard from that.
 """
 
 import json
+import os
 import sys
 import time
 import urllib.request
@@ -25,6 +26,27 @@ from datetime import datetime, timezone
 
 BASE = "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world"
 OUT = "data/bracket.json"
+
+# ----- tournament-winner ("win the whole cup") odds -----
+# Optional: set the ODDS_API_KEY env var (a free key from https://the-odds-api.com)
+# to populate each team's win probability. Without it, the site simply omits the
+# Win % column. Outright odds move slowly, so we only refetch every few hours to
+# stay well inside the free tier.
+ODDS_API_KEY = os.environ.get("ODDS_API_KEY", "").strip()
+ODDS_SPORT = "soccer_fifa_world_cup_winner"
+ODDS_TTL_HOURS = 6
+
+# Map bookmaker outright names -> ESPN display names where they differ.
+ODDS_ALIASES = {
+    "usa": "United States",
+    "united states": "United States",
+    "czech republic": "Czechia",
+    "south korea": "South Korea",
+    "ivory coast": "Ivory Coast",
+    "cote d'ivoire": "Ivory Coast",
+    "turkey": "Türkiye",
+    "turkiye": "Türkiye",
+}
 
 # Calendar "value" -> (json key, progression stage index, display name).
 # The 3rd-place match is round 6; it is not a progression stage, so its index
@@ -164,6 +186,86 @@ def build_standings():
     return groups
 
 
+def _median(nums):
+    s = sorted(nums)
+    n = len(s)
+    if n == 0:
+        return None
+    return s[n // 2] if n % 2 else (s[n // 2 - 1] + s[n // 2]) / 2
+
+
+def fetch_championship_odds():
+    """Outright 'win the tournament' odds -> normalised implied probability per team.
+
+    Returns {ESPN_team_name: {"prob": 0.0-1.0, "decimal": float}} or None.
+    """
+    if not ODDS_API_KEY:
+        return None
+    url = (f"https://api.the-odds-api.com/v4/sports/{ODDS_SPORT}/odds"
+           f"?regions=uk&markets=outrights&oddsFormat=decimal&apiKey={ODDS_API_KEY}")
+    data = get(url)
+    if not isinstance(data, list) or not data:
+        return None
+
+    # Collect decimal prices per team across all events/bookmakers.
+    prices = {}
+    for event in data:
+        for bk in event.get("bookmakers", []):
+            for mkt in bk.get("markets", []):
+                if mkt.get("key") != "outrights":
+                    continue
+                for oc in mkt.get("outcomes", []):
+                    name = (oc.get("name") or "").strip()
+                    price = oc.get("price")
+                    if not name or not isinstance(price, (int, float)) or price <= 1:
+                        continue
+                    canon = ODDS_ALIASES.get(name.lower(), name)
+                    prices.setdefault(canon, []).append(float(price))
+    if not prices:
+        return None
+
+    # Median decimal -> raw implied prob, then normalise so they sum to 1
+    # (removes the bookmaker's overround / margin).
+    raw = {team: 1.0 / _median(ps) for team, ps in prices.items() if _median(ps)}
+    total = sum(raw.values())
+    if total <= 0:
+        return None
+    out = {}
+    for team, p in raw.items():
+        out[team] = {"prob": round(p / total, 4),
+                     "decimal": round(_median(prices[team]), 2)}
+    return out
+
+
+def load_previous():
+    """Load the previously committed bracket.json (for odds caching)."""
+    try:
+        with open(OUT, encoding="utf-8") as f:
+            return json.load(f)
+    except (OSError, ValueError):
+        return {}
+
+
+def resolve_odds(now):
+    """Reuse cached odds if fresh; otherwise refetch. Returns the odds block."""
+    prev = (load_previous().get("odds") or {})
+    if prev.get("updated") and prev.get("championship"):
+        try:
+            prev_dt = datetime.strptime(prev["updated"], "%Y-%m-%dT%H:%M:%SZ").replace(tzinfo=timezone.utc)
+            if (now - prev_dt).total_seconds() / 3600 < ODDS_TTL_HOURS:
+                print("Using cached championship odds.")
+                return prev
+        except ValueError:
+            pass
+    if not ODDS_API_KEY:
+        return prev  # nothing we can do; keep whatever we had
+    print("Fetching championship odds...")
+    champ = fetch_championship_odds()
+    if champ:
+        return {"updated": now.strftime("%Y-%m-%dT%H:%M:%SZ"), "championship": champ}
+    return prev  # keep last good odds on failure
+
+
 def main():
     print("Fetching calendar...")
     calendar = fetch_calendar()
@@ -286,14 +388,25 @@ def main():
     else:
         phase = "group"
 
+    # ----- tournament-winner odds -> attach a win probability to each team -----
+    now = datetime.now(timezone.utc)
+    odds = resolve_odds(now)
+    champ_odds = (odds or {}).get("championship") or {}
+    for name, t in teams.items():
+        info = champ_odds.get(name)
+        # An eliminated team can no longer win the cup.
+        if info and t["status"] != "out":
+            t["win_prob"] = info["prob"]
+
     out = {
-        "last_updated": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
+        "last_updated": now.strftime("%Y-%m-%dT%H:%M:%SZ"),
         "phase": phase,
         "champion": champion,
         "groups": standings,
         "knockout": knockout,
         "group_fixtures": events_by_round.get("1", []),
         "teams": teams,
+        "odds": odds or {},
     }
 
     with open(OUT, "w", encoding="utf-8") as f:
