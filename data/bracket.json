@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-12T02:37:46Z",
+  "last_updated": "2026-06-12T06:52:16Z",
   "phase": "knockout",
   "champion": null,
   "groups": [],
@@ -1142,16 +1142,16 @@
       "id": "760414",
       "date": "2026-06-12T02:00Z",
       "round": "1",
-      "state": "in",
-      "completed": false,
-      "detail": "26'",
+      "state": "post",
+      "completed": true,
+      "detail": "FT",
       "competitors": [
         {
           "team": "South Korea",
           "abbr": "kor",
           "logo": "https://a.espncdn.com/i/teamlogos/countries/500/kors.png",
-          "score": 0,
-          "winner": false,
+          "score": 2,
+          "winner": true,
           "homeAway": "home",
           "advance": null
         },
@@ -1159,7 +1159,7 @@
           "team": "Czechia",
           "abbr": "cze",
           "logo": "https://a.espncdn.com/i/teamlogos/countries/500/cze.png",
-          "score": 0,
+          "score": 1,
           "winner": false,
           "homeAway": "away",
           "advance": null
