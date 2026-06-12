@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-12T01:57:43Z",
+  "last_updated": "2026-06-12T02:37:27Z",
   "phase": "knockout",
   "champion": null,
   "groups": [],
@@ -1142,9 +1142,9 @@
       "id": "760414",
       "date": "2026-06-12T02:00Z",
       "round": "1",
-      "state": "pre",
+      "state": "in",
       "completed": false,
-      "detail": "Scheduled",
+      "detail": "36'",
       "competitors": [
         {
           "team": "South Korea",
