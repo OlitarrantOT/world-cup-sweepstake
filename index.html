@@ -208,6 +208,7 @@
   <div class="view-toggle" role="tablist" aria-label="View">
     <button data-view="standings" class="active">Leaderboard</button>
     <button data-view="bracket">Knockouts</button>
+    <button data-view="fixtures">Fixtures</button>
     <button data-view="groups">Groups</button>
   </div>
 </header>
@@ -228,6 +229,10 @@
 
   <section class="block" id="view-bracket">
     <div id="bracket-area"></div>
+  </section>
+
+  <section class="block" id="view-fixtures">
+    <div id="fixtures-area"></div>
   </section>
 
   <section class="block" id="view-groups">
@@ -440,7 +445,7 @@
     area.innerHTML = `<div class="bracket-wrap"><div class="bracket">${colHtml}</div></div>`;
   }
 
-  // ---------------- Groups ----------------
+  // ---------------- Fixtures ----------------
   function fixtureRow(ev, picks){
     const cs = ev.competitors||[]; const a=cs[0]||{}, b=cs[1]||{};
     const played = ev.completed || ev.state==="in";
@@ -456,39 +461,115 @@
     </div>`;
   }
 
-  function renderGroups(data, picks){
+  // Real group-stage fixtures only — drop knockout placeholder rows like
+  // "Group A 2nd Place" / "Winners Match 73" that ESPN includes in the same date window.
+  function isPlaceholderTeam(name){
+    return !name || /\bplace\b|winner|runner|loser|advance|\bTBD\b/i.test(name);
+  }
+  function realGroupFixtures(data){
+    return (data.group_fixtures||[]).filter(ev=>{
+      const cs = ev.competitors||[];
+      return cs.length===2 && !isPlaceholderTeam(cs[0].team) && !isPlaceholderTeam(cs[1].team);
+    });
+  }
+
+  function renderFixtures(data, picks){
+    const area = document.getElementById("fixtures-area");
+    const fx = realGroupFixtures(data).slice().sort((a,b)=> (a.date||"").localeCompare(b.date||""));
+    if(!fx.length){
+      area.innerHTML = `<div class="empty-note">⚽ Group fixtures will appear here once the live feed updates.</div>`;
+      return;
+    }
+    area.innerHTML = `
+      <div class="panel" style="margin-bottom:16px;">
+        <h2>Group Stage Fixtures · NZ time</h2>
+      </div>
+      <div class="fixtures">${fx.map(ev=>fixtureRow(ev,picks)).join("")}</div>`;
+  }
+
+  // ---------------- Groups ----------------
+  // ESPN's bracket feed doesn't populate data.groups, so we reconstruct the 12
+  // groups of 4 from the round-robin group-stage fixtures (connected components),
+  // then compute a live table (P/W/D/L/GD/Pts) from completed results.
+  function reconstructGroups(data){
+    const fixtures = realGroupFixtures(data);
+
+    const adj = new Map();
+    const addEdge=(a,b)=>{
+      if(!adj.has(a)) adj.set(a,new Set());
+      if(!adj.has(b)) adj.set(b,new Set());
+      adj.get(a).add(b); adj.get(b).add(a);
+    };
+    fixtures.forEach(ev=>{
+      const [a,b]=ev.competitors;
+      addEdge(a.team,b.team);
+    });
+
+    const seen=new Set(); const comps=[];
+    for(const team of adj.keys()){
+      if(seen.has(team)) continue;
+      const stack=[team]; const comp=new Set();
+      while(stack.length){
+        const t=stack.pop();
+        if(comp.has(t)) continue;
+        comp.add(t); seen.add(t);
+        for(const n of adj.get(t)||[]) if(!comp.has(n)) stack.push(n);
+      }
+      comps.push([...comp]);
+    }
+
+    const groups = comps.map(teamsArr=>{
+      const table = {};
+      teamsArr.forEach(t=> table[t] = {team:t, p:0,w:0,d:0,l:0,gf:0,ga:0,gd:0,pts:0, logo:null});
+      fixtures.forEach(ev=>{
+        const [a,b]=ev.competitors;
+        if(!table[a.team] || !table[b.team]) return;
+        table[a.team].logo = table[a.team].logo || a.logo;
+        table[b.team].logo = table[b.team].logo || b.logo;
+        if(!ev.completed) return;
+        const sa=a.score||0, sb=b.score||0;
+        table[a.team].p++; table[b.team].p++;
+        table[a.team].gf+=sa; table[a.team].ga+=sb;
+        table[b.team].gf+=sb; table[b.team].ga+=sa;
+        if(sa>sb){ table[a.team].w++; table[a.team].pts+=3; table[b.team].l++; }
+        else if(sa<sb){ table[b.team].w++; table[b.team].pts+=3; table[a.team].l++; }
+        else { table[a.team].d++; table[b.team].d++; table[a.team].pts++; table[b.team].pts++; }
+      });
+      const rows = Object.values(table).map(r=>({...r, gd:r.gf-r.ga}));
+      rows.sort((x,y)=> y.pts-x.pts || y.gd-x.gd || y.gf-x.gf || x.team.localeCompare(y.team));
+      rows.forEach((r,i)=> r.rank=i+1);
+      return { key: teamsArr.slice().sort()[0], teams: rows };
+    });
+
+    groups.sort((a,b)=> a.key.localeCompare(b.key));
+    groups.forEach((g,i)=> g.name = "Group " + String.fromCharCode(65+i));
+    return groups;
+  }
+
+  function renderGroupTables(data, picks){
     const area = document.getElementById("groups-area");
-    const groups = data.groups || [];
-    let html = "";
-
-    if(groups.length){
-      const grid = groups.map(g=>{
-        const rows = (g.teams||[]).map((t,i)=>{
-          const adv = (t.rank ? t.rank<=2 : i<2);
-          const own = ownerOf(t.team,picks);
-          const ownHtml = own ? `<span class="owner">${esc(own)}</span>` : "";
-          const fl = t.logo?`<img src="${esc(t.logo)}" onerror="this.style.display='none'">`:"";
-          return `<tr class="${adv?'adv':''}">
-            <td class="tm">${fl}${esc(t.team)}${ownHtml}</td>
-            <td>${t.p??0}</td><td>${t.w??0}</td><td>${t.d??0}</td><td>${t.l??0}</td>
-            <td>${t.gd>0?'+':''}${t.gd??0}</td><td class="pts">${t.pts??0}</td>
-          </tr>`;
-        }).join("");
-        return `<div class="group"><h3>${esc(g.name)}</h3>
-          <table class="gt"><thead><tr><th style="text-align:left">Team</th><th>P</th><th>W</th><th>D</th><th>L</th><th>GD</th><th>Pts</th></tr></thead>
-          <tbody>${rows}</tbody></table></div>`;
+    const groups = reconstructGroups(data);
+    if(!groups.length){
+      area.innerHTML = `<div class="empty-note">⚽ Group tables will appear here once the live feed updates.</div>`;
+      return;
+    }
+    const grid = groups.map(g=>{
+      const rows = g.teams.map(t=>{
+        const adv = t.rank<=2;
+        const own = ownerOf(t.team,picks);
+        const ownHtml = own ? `<span class="owner">${esc(own)}</span>` : "";
+        const fl = t.logo?`<img src="${esc(t.logo)}" onerror="this.style.display='none'">`:"";
+        return `<tr class="${adv?'adv':''}">
+          <td class="tm">${fl}${esc(t.team)}${ownHtml}</td>
+          <td>${t.p}</td><td>${t.w}</td><td>${t.d}</td><td>${t.l}</td>
+          <td>${t.gd>0?'+':''}${t.gd}</td><td class="pts">${t.pts}</td>
+        </tr>`;
       }).join("");
-      html += `<div class="groups-grid">${grid}</div>`;
-    }
-
-    // Fixtures (with NZ kick-off times) — always shown so game times are visible.
-    const fx = (data.group_fixtures||[]).slice().sort((a,b)=> (a.date||"").localeCompare(b.date||""));
-    if(fx.length){
-      html += `<h2 style="margin:26px 0 12px;font-size:14px;letter-spacing:1.5px;text-transform:uppercase;color:var(--accent)">Group Fixtures · NZ time</h2>`;
-      html += `<div class="fixtures">${fx.map(ev=>fixtureRow(ev,picks)).join("")}</div>`;
-    }
-
-    area.innerHTML = html || `<div class="empty-note">⚽ Group fixtures and tables will appear here once the live feed updates.</div>`;
+      return `<div class="group"><h3>${esc(g.name)}</h3>
+        <table class="gt"><thead><tr><th style="text-align:left">Team</th><th>P</th><th>W</th><th>D</th><th>L</th><th>GD</th><th>Pts</th></tr></thead>
+        <tbody>${rows}</tbody></table></div>`;
+    }).join("");
+    area.innerHTML = `<div class="groups-grid">${grid}</div>`;
   }
 
   // ---------------- View toggle ----------------
@@ -523,7 +604,8 @@
       renderLeaderboard(lb);
       renderTeamPicks(data, picks);
       renderBracket(data, picks);
-      renderGroups(data, picks);
+      renderFixtures(data, picks);
+      renderGroupTables(data, picks);
     }catch(e){
       document.getElementById("load-error").innerHTML =
         `<div class="err">Could not load data: ${esc(e.message)}. Check that <code>data/picks.json</code> exists.</div>`;
