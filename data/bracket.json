@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-14T19:50:54Z",
+  "last_updated": "2026-06-14T21:18:12Z",
   "phase": "knockout",
   "champion": null,
   "groups": [],
@@ -1366,15 +1366,15 @@
       "id": "760425",
       "date": "2026-06-14T20:00Z",
       "round": "1",
-      "state": "pre",
+      "state": "in",
       "completed": false,
-      "detail": "Scheduled",
+      "detail": "59'",
       "competitors": [
         {
           "team": "Netherlands",
           "abbr": "ned",
           "logo": "https://a.espncdn.com/i/teamlogos/countries/500/ned.png",
-          "score": 0,
+          "score": 1,
           "winner": false,
           "homeAway": "home",
           "advance": null
@@ -1383,7 +1383,7 @@
           "team": "Japan",
           "abbr": "jpn",
           "logo": "https://a.espncdn.com/i/teamlogos/countries/500/jpn.png",
-          "score": 0,
+          "score": 1,
           "winner": false,
           "homeAway": "away",
           "advance": null
