@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-14T17:58:42Z",
+  "last_updated": "2026-06-14T19:50:54Z",
   "phase": "knockout",
   "champion": null,
   "groups": [],
@@ -1338,16 +1338,16 @@
       "id": "760422",
       "date": "2026-06-14T17:00Z",
       "round": "1",
-      "state": "in",
-      "completed": false,
-      "detail": "HT",
+      "state": "post",
+      "completed": true,
+      "detail": "FT",
       "competitors": [
         {
           "team": "Germany",
           "abbr": "ger",
           "logo": "https://a.espncdn.com/i/teamlogos/countries/500/ger.png",
-          "score": 3,
-          "winner": false,
+          "score": 7,
+          "winner": true,
           "homeAway": "home",
           "advance": null
         },
