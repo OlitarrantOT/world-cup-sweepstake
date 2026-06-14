@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-14T05:17:01Z",
+  "last_updated": "2026-06-14T08:54:15Z",
   "phase": "knockout",
   "champion": null,
   "groups": [],
@@ -1310,16 +1310,16 @@
       "id": "760421",
       "date": "2026-06-14T04:00Z",
       "round": "1",
-      "state": "in",
-      "completed": false,
-      "detail": "56'",
+      "state": "post",
+      "completed": true,
+      "detail": "FT",
       "competitors": [
         {
           "team": "Australia",
           "abbr": "aus",
           "logo": "https://a.espncdn.com/i/teamlogos/countries/500/aus.png",
-          "score": 1,
-          "winner": false,
+          "score": 2,
+          "winner": true,
           "homeAway": "home",
           "advance": null
         },
