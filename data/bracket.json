@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-13T22:38:29Z",
+  "last_updated": "2026-06-14T00:12:57Z",
   "phase": "knockout",
   "champion": null,
   "groups": [],
@@ -1254,9 +1254,9 @@
       "id": "760419",
       "date": "2026-06-13T22:00Z",
       "round": "1",
-      "state": "in",
-      "completed": false,
-      "detail": "33'",
+      "state": "post",
+      "completed": true,
+      "detail": "FT",
       "competitors": [
         {
           "team": "Brazil",
