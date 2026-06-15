@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-15T12:26:46Z",
+  "last_updated": "2026-06-15T17:33:17Z",
   "phase": "knockout",
   "champion": null,
   "groups": [],
@@ -1450,9 +1450,9 @@
       "id": "760428",
       "date": "2026-06-15T16:00Z",
       "round": "1",
-      "state": "pre",
+      "state": "in",
       "completed": false,
-      "detail": "Scheduled",
+      "detail": "72'",
       "competitors": [
         {
           "team": "Spain",
