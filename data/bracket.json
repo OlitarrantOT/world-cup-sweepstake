@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-15T00:17:11Z",
+  "last_updated": "2026-06-15T05:39:19Z",
   "phase": "knockout",
   "champion": null,
   "groups": [],
@@ -1394,16 +1394,16 @@
       "id": "760423",
       "date": "2026-06-14T23:00Z",
       "round": "1",
-      "state": "in",
-      "completed": false,
-      "detail": "52'",
+      "state": "post",
+      "completed": true,
+      "detail": "FT",
       "competitors": [
         {
           "team": "Ivory Coast",
           "abbr": "civ",
           "logo": "https://a.espncdn.com/i/teamlogos/countries/500/civ.png",
-          "score": 0,
-          "winner": false,
+          "score": 1,
+          "winner": true,
           "homeAway": "home",
           "advance": null
         },
@@ -1422,16 +1422,16 @@
       "id": "760424",
       "date": "2026-06-15T02:00Z",
       "round": "1",
-      "state": "pre",
-      "completed": false,
-      "detail": "Scheduled",
+      "state": "post",
+      "completed": true,
+      "detail": "FT",
       "competitors": [
         {
           "team": "Sweden",
           "abbr": "swe",
           "logo": "https://a.espncdn.com/i/teamlogos/countries/500/swe.png",
-          "score": 0,
-          "winner": false,
+          "score": 5,
+          "winner": true,
           "homeAway": "home",
           "advance": null
         },
@@ -1439,7 +1439,7 @@
           "team": "Tunisia",
           "abbr": "tun",
           "logo": "https://a.espncdn.com/i/teamlogos/countries/500/tun.png",
-          "score": 0,
+          "score": 1,
           "winner": false,
           "homeAway": "away",
           "advance": null
