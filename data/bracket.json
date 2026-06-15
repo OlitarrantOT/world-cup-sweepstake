@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-15T21:10:31Z",
+  "last_updated": "2026-06-15T23:18:50Z",
   "phase": "knockout",
   "champion": null,
   "groups": [],
@@ -1506,15 +1506,15 @@
       "id": "760429",
       "date": "2026-06-15T22:00Z",
       "round": "1",
-      "state": "pre",
+      "state": "in",
       "completed": false,
-      "detail": "Scheduled",
+      "detail": "53'",
       "competitors": [
         {
           "team": "Saudi Arabia",
           "abbr": "ksa",
           "logo": "https://a.espncdn.com/i/teamlogos/countries/500/ksa.png",
-          "score": 0,
+          "score": 1,
           "winner": false,
           "homeAway": "home",
           "advance": null
