@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-16T21:28:00Z",
+  "last_updated": "2026-06-16T23:10:51Z",
   "phase": "knockout",
   "champion": null,
   "groups": [],
@@ -1590,15 +1590,15 @@
       "id": "760430",
       "date": "2026-06-16T22:00Z",
       "round": "1",
-      "state": "pre",
+      "state": "in",
       "completed": false,
-      "detail": "Scheduled",
+      "detail": "48'",
       "competitors": [
         {
           "team": "Iraq",
           "abbr": "irq",
           "logo": "https://a.espncdn.com/i/teamlogos/countries/500/irq.png",
-          "score": 0,
+          "score": 1,
           "winner": false,
           "homeAway": "home",
           "advance": null
@@ -1607,7 +1607,7 @@
           "team": "Norway",
           "abbr": "nor",
           "logo": "https://a.espncdn.com/i/teamlogos/countries/500/nor.png",
-          "score": 0,
+          "score": 2,
           "winner": false,
           "homeAway": "away",
           "advance": null
