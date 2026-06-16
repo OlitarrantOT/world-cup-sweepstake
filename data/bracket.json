@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-15T23:18:50Z",
+  "last_updated": "2026-06-16T02:09:49Z",
   "phase": "knockout",
   "champion": null,
   "groups": [],
@@ -1506,9 +1506,9 @@
       "id": "760429",
       "date": "2026-06-15T22:00Z",
       "round": "1",
-      "state": "in",
-      "completed": false,
-      "detail": "53'",
+      "state": "post",
+      "completed": true,
+      "detail": "FT",
       "competitors": [
         {
           "team": "Saudi Arabia",
@@ -1523,7 +1523,7 @@
           "team": "Uruguay",
           "abbr": "uru",
           "logo": "https://a.espncdn.com/i/teamlogos/countries/500/uru.png",
-          "score": 0,
+          "score": 1,
           "winner": false,
           "homeAway": "away",
           "advance": null
@@ -1534,15 +1534,15 @@
       "id": "760427",
       "date": "2026-06-16T01:00Z",
       "round": "1",
-      "state": "pre",
+      "state": "in",
       "completed": false,
-      "detail": "Scheduled",
+      "detail": "HT",
       "competitors": [
         {
           "team": "Iran",
           "abbr": "irn",
           "logo": "https://a.espncdn.com/i/teamlogos/countries/500/irn.png",
-          "score": 0,
+          "score": 1,
           "winner": false,
           "homeAway": "home",
           "advance": null
@@ -1551,7 +1551,7 @@
           "team": "New Zealand",
           "abbr": "nzl",
           "logo": "https://a.espncdn.com/i/teamlogos/countries/500/nzl.png",
-          "score": 0,
+          "score": 1,
           "winner": false,
           "homeAway": "away",
           "advance": null
