@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-17T21:29:52Z",
+  "last_updated": "2026-06-17T23:04:52Z",
   "phase": "knockout",
   "champion": null,
   "groups": [],
@@ -1702,16 +1702,16 @@
       "id": "760437",
       "date": "2026-06-17T20:00Z",
       "round": "1",
-      "state": "in",
-      "completed": false,
-      "detail": "65'",
+      "state": "post",
+      "completed": true,
+      "detail": "FT",
       "competitors": [
         {
           "team": "England",
           "abbr": "eng",
           "logo": "https://a.espncdn.com/i/teamlogos/countries/500/eng.png",
-          "score": 3,
-          "winner": false,
+          "score": 4,
+          "winner": true,
           "homeAway": "home",
           "advance": null
         },
@@ -1730,9 +1730,9 @@
       "id": "760434",
       "date": "2026-06-17T23:00Z",
       "round": "1",
-      "state": "pre",
+      "state": "in",
       "completed": false,
-      "detail": "Scheduled",
+      "detail": "3'",
       "competitors": [
         {
           "team": "Ghana",
