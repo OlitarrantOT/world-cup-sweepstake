@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-17T02:03:26Z",
+  "last_updated": "2026-06-17T07:35:43Z",
   "phase": "knockout",
   "champion": null,
   "groups": [],
@@ -1618,16 +1618,16 @@
       "id": "760433",
       "date": "2026-06-17T01:00Z",
       "round": "1",
-      "state": "in",
-      "completed": false,
-      "detail": "HT",
+      "state": "post",
+      "completed": true,
+      "detail": "FT",
       "competitors": [
         {
           "team": "Argentina",
           "abbr": "arg",
           "logo": "https://a.espncdn.com/i/teamlogos/countries/500/arg.png",
-          "score": 1,
-          "winner": false,
+          "score": 3,
+          "winner": true,
           "homeAway": "home",
           "advance": null
         },
@@ -1646,16 +1646,16 @@
       "id": "760431",
       "date": "2026-06-17T04:00Z",
       "round": "1",
-      "state": "pre",
-      "completed": false,
-      "detail": "Scheduled",
+      "state": "post",
+      "completed": true,
+      "detail": "FT",
       "competitors": [
         {
           "team": "Austria",
           "abbr": "aut",
           "logo": "https://a.espncdn.com/i/teamlogos/countries/500/aut.png",
-          "score": 0,
-          "winner": false,
+          "score": 3,
+          "winner": true,
           "homeAway": "home",
           "advance": null
         },
@@ -1663,7 +1663,7 @@
           "team": "Jordan",
           "abbr": "jor",
           "logo": "https://a.espncdn.com/i/teamlogos/countries/500/jor.png",
-          "score": 0,
+          "score": 1,
           "winner": false,
           "homeAway": "away",
           "advance": null
