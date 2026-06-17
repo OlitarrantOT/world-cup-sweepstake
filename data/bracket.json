@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-17T19:06:54Z",
+  "last_updated": "2026-06-17T21:29:52Z",
   "phase": "knockout",
   "champion": null,
   "groups": [],
@@ -1702,15 +1702,15 @@
       "id": "760437",
       "date": "2026-06-17T20:00Z",
       "round": "1",
-      "state": "pre",
+      "state": "in",
       "completed": false,
-      "detail": "Scheduled",
+      "detail": "65'",
       "competitors": [
         {
           "team": "England",
           "abbr": "eng",
           "logo": "https://a.espncdn.com/i/teamlogos/countries/500/eng.png",
-          "score": 0,
+          "score": 3,
           "winner": false,
           "homeAway": "home",
           "advance": null
@@ -1719,7 +1719,7 @@
           "team": "Croatia",
           "abbr": "cro",
           "logo": "https://a.espncdn.com/i/teamlogos/countries/500/cro.png",
-          "score": 0,
+          "score": 2,
           "winner": false,
           "homeAway": "away",
           "advance": null
