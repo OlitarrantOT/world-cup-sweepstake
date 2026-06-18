@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-18T02:01:55Z",
+  "last_updated": "2026-06-18T07:16:40Z",
   "phase": "knockout",
   "champion": null,
   "groups": [],
@@ -1758,15 +1758,15 @@
       "id": "760436",
       "date": "2026-06-18T02:00Z",
       "round": "1",
-      "state": "in",
-      "completed": false,
-      "detail": "2'",
+      "state": "post",
+      "completed": true,
+      "detail": "FT",
       "competitors": [
         {
           "team": "Uzbekistan",
           "abbr": "uzb",
           "logo": "https://a.espncdn.com/i/teamlogos/countries/500/uzb.png",
-          "score": 0,
+          "score": 1,
           "winner": false,
           "homeAway": "home",
           "advance": null
@@ -1775,8 +1775,8 @@
           "team": "Colombia",
           "abbr": "col",
           "logo": "https://a.espncdn.com/i/teamlogos/countries/500/col.png",
-          "score": 0,
-          "winner": false,
+          "score": 3,
+          "winner": true,
           "homeAway": "away",
           "advance": null
         }
