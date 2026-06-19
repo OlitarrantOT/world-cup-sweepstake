@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-19T21:46:01Z",
+  "last_updated": "2026-06-19T23:02:34Z",
   "phase": "knockout",
   "champion": null,
   "groups": [],
@@ -1926,9 +1926,9 @@
       "id": "760445",
       "date": "2026-06-19T22:00Z",
       "round": "1",
-      "state": "pre",
+      "state": "in",
       "completed": false,
-      "detail": "Scheduled",
+      "detail": "HT",
       "competitors": [
         {
           "team": "Scotland",
@@ -1943,7 +1943,7 @@
           "team": "Morocco",
           "abbr": "mar",
           "logo": "https://a.espncdn.com/i/teamlogos/countries/500/mar.png",
-          "score": 0,
+          "score": 1,
           "winner": false,
           "homeAway": "away",
           "advance": null
