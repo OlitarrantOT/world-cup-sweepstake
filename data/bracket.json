@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-19T20:16:35Z",
+  "last_updated": "2026-06-19T21:46:01Z",
   "phase": "knockout",
   "champion": null,
   "groups": [],
@@ -1898,16 +1898,16 @@
       "id": "760442",
       "date": "2026-06-19T19:00Z",
       "round": "1",
-      "state": "in",
-      "completed": false,
-      "detail": "51'",
+      "state": "post",
+      "completed": true,
+      "detail": "FT",
       "competitors": [
         {
           "team": "United States",
           "abbr": "usa",
           "logo": "https://a.espncdn.com/i/teamlogos/countries/500/usa.png",
           "score": 2,
-          "winner": false,
+          "winner": true,
           "homeAway": "home",
           "advance": null
         },
