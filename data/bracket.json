@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-19T02:19:12Z",
+  "last_updated": "2026-06-19T07:40:29Z",
   "phase": "knockout",
   "champion": null,
   "groups": [],
@@ -1870,16 +1870,16 @@
       "id": "760441",
       "date": "2026-06-19T01:00Z",
       "round": "1",
-      "state": "in",
-      "completed": false,
-      "detail": "59'",
+      "state": "post",
+      "completed": true,
+      "detail": "FT",
       "competitors": [
         {
           "team": "Mexico",
           "abbr": "mex",
           "logo": "https://a.espncdn.com/i/teamlogos/countries/500/mex.png",
           "score": 1,
-          "winner": false,
+          "winner": true,
           "homeAway": "home",
           "advance": null
         },
