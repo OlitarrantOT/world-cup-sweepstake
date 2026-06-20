@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-19T23:02:34Z",
+  "last_updated": "2026-06-20T01:36:28Z",
   "phase": "knockout",
   "champion": null,
   "groups": [],
@@ -1926,9 +1926,9 @@
       "id": "760445",
       "date": "2026-06-19T22:00Z",
       "round": "1",
-      "state": "in",
-      "completed": false,
-      "detail": "HT",
+      "state": "post",
+      "completed": true,
+      "detail": "FT",
       "competitors": [
         {
           "team": "Scotland",
@@ -1944,7 +1944,7 @@
           "abbr": "mar",
           "logo": "https://a.espncdn.com/i/teamlogos/countries/500/mar.png",
           "score": 1,
-          "winner": false,
+          "winner": true,
           "homeAway": "away",
           "advance": null
         }
@@ -1954,15 +1954,15 @@
       "id": "760444",
       "date": "2026-06-20T00:30Z",
       "round": "1",
-      "state": "pre",
+      "state": "in",
       "completed": false,
-      "detail": "Scheduled",
+      "detail": "HT",
       "competitors": [
         {
           "team": "Brazil",
           "abbr": "bra",
           "logo": "https://a.espncdn.com/i/teamlogos/countries/500/bra.png",
-          "score": 0,
+          "score": 3,
           "winner": false,
           "homeAway": "home",
           "advance": null
