@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-20T16:23:34Z",
+  "last_updated": "2026-06-20T17:55:30Z",
   "phase": "knockout",
   "champion": null,
   "groups": [],
@@ -2010,15 +2010,15 @@
       "id": "760447",
       "date": "2026-06-20T17:00Z",
       "round": "1",
-      "state": "pre",
+      "state": "in",
       "completed": false,
-      "detail": "Scheduled",
+      "detail": "HT",
       "competitors": [
         {
           "team": "Netherlands",
           "abbr": "ned",
           "logo": "https://a.espncdn.com/i/teamlogos/countries/500/ned.png",
-          "score": 0,
+          "score": 2,
           "winner": false,
           "homeAway": "home",
           "advance": null
