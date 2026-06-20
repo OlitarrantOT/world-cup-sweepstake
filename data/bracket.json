@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-20T17:55:30Z",
+  "last_updated": "2026-06-20T19:46:13Z",
   "phase": "knockout",
   "champion": null,
   "groups": [],
@@ -2010,16 +2010,16 @@
       "id": "760447",
       "date": "2026-06-20T17:00Z",
       "round": "1",
-      "state": "in",
-      "completed": false,
-      "detail": "HT",
+      "state": "post",
+      "completed": true,
+      "detail": "FT",
       "competitors": [
         {
           "team": "Netherlands",
           "abbr": "ned",
           "logo": "https://a.espncdn.com/i/teamlogos/countries/500/ned.png",
-          "score": 2,
-          "winner": false,
+          "score": 5,
+          "winner": true,
           "homeAway": "home",
           "advance": null
         },
@@ -2027,7 +2027,7 @@
           "team": "Sweden",
           "abbr": "swe",
           "logo": "https://a.espncdn.com/i/teamlogos/countries/500/swe.png",
-          "score": 0,
+          "score": 1,
           "winner": false,
           "homeAway": "away",
           "advance": null
