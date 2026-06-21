@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-21T05:26:36Z",
+  "last_updated": "2026-06-21T09:09:43Z",
   "phase": "knockout",
   "champion": null,
   "groups": [],
@@ -2094,9 +2094,9 @@
       "id": "760449",
       "date": "2026-06-21T04:00Z",
       "round": "1",
-      "state": "in",
-      "completed": false,
-      "detail": "66'",
+      "state": "post",
+      "completed": true,
+      "detail": "FT",
       "competitors": [
         {
           "team": "Tunisia",
@@ -2111,8 +2111,8 @@
           "team": "Japan",
           "abbr": "jpn",
           "logo": "https://a.espncdn.com/i/teamlogos/countries/500/jpn.png",
-          "score": 2,
-          "winner": false,
+          "score": 4,
+          "winner": true,
           "homeAway": "away",
           "advance": null
         }
