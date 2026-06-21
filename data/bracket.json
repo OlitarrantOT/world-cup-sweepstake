@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-21T18:21:29Z",
+  "last_updated": "2026-06-21T20:13:22Z",
   "phase": "knockout",
   "champion": null,
   "groups": [],
@@ -2150,9 +2150,9 @@
       "id": "760451",
       "date": "2026-06-21T19:00Z",
       "round": "1",
-      "state": "pre",
+      "state": "in",
       "completed": false,
-      "detail": "Scheduled",
+      "detail": "48'",
       "competitors": [
         {
           "team": "Belgium",
