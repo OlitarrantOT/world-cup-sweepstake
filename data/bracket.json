@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-20T22:44:06Z",
+  "last_updated": "2026-06-21T00:13:18Z",
   "phase": "knockout",
   "champion": null,
   "groups": [],
@@ -2066,9 +2066,9 @@
       "id": "760446",
       "date": "2026-06-21T00:00Z",
       "round": "1",
-      "state": "pre",
+      "state": "in",
       "completed": false,
-      "detail": "Scheduled",
+      "detail": "12'",
       "competitors": [
         {
           "team": "Ecuador",
