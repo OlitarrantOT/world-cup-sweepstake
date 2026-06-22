@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-22T14:45:44Z",
+  "last_updated": "2026-06-22T18:50:07Z",
   "phase": "knockout",
   "champion": null,
   "groups": [],
@@ -2234,15 +2234,15 @@
       "id": "760456",
       "date": "2026-06-22T17:00Z",
       "round": "1",
-      "state": "pre",
+      "state": "in",
       "completed": false,
-      "detail": "Scheduled",
+      "detail": "86'",
       "competitors": [
         {
           "team": "Argentina",
           "abbr": "arg",
           "logo": "https://a.espncdn.com/i/teamlogos/countries/500/arg.png",
-          "score": 0,
+          "score": 1,
           "winner": false,
           "homeAway": "home",
           "advance": null
