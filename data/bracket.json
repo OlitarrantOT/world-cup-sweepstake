@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-22T08:40:01Z",
+  "last_updated": "2026-06-22T14:45:44Z",
   "phase": "knockout",
   "champion": null,
   "groups": [],
@@ -3216,7 +3216,7 @@
       "stage_index": 1,
       "stage": "Round of 32",
       "status": "alive",
-      "win_prob": 0.0261
+      "win_prob": 0.0263
     },
     "Paraguay": {
       "abbr": "par",
@@ -3225,7 +3225,7 @@
       "stage_index": 0,
       "stage": "Group",
       "status": "alive",
-      "win_prob": 0.0017
+      "win_prob": 0.0016
     },
     "Qatar": {
       "abbr": "qat",
@@ -3243,7 +3243,7 @@
       "stage_index": 0,
       "stage": "Group",
       "status": "alive",
-      "win_prob": 0.0084
+      "win_prob": 0.0093
     },
     "Brazil": {
       "abbr": "bra",
@@ -3252,7 +3252,7 @@
       "stage_index": 0,
       "stage": "Group",
       "status": "alive",
-      "win_prob": 0.0592
+      "win_prob": 0.0576
     },
     "Morocco": {
       "abbr": "mar",
@@ -3261,7 +3261,7 @@
       "stage_index": 0,
       "stage": "Group",
       "status": "alive",
-      "win_prob": 0.0237
+      "win_prob": 0.0238
     },
     "Haiti": {
       "abbr": "hai",
@@ -3287,7 +3287,7 @@
       "stage_index": 0,
       "stage": "Group",
       "status": "alive",
-      "win_prob": 0.0048
+      "win_prob": 0.004
     },
     "Türkiye": {
       "abbr": "tur",
@@ -3304,7 +3304,7 @@
       "stage_index": 1,
       "stage": "Round of 32",
       "status": "alive",
-      "win_prob": 0.0573
+      "win_prob": 0.0567
     },
     "Curaçao": {
       "abbr": "cuw",
@@ -3322,7 +3322,7 @@
       "stage_index": 0,
       "stage": "Group",
       "status": "alive",
-      "win_prob": 0.0508
+      "win_prob": 0.0503
     },
     "Japan": {
       "abbr": "jpn",
@@ -3331,7 +3331,7 @@
       "stage_index": 0,
       "stage": "Group",
       "status": "alive",
-      "win_prob": 0.0195
+      "win_prob": 0.0196
     },
     "Ivory Coast": {
       "abbr": "civ",
@@ -3349,7 +3349,7 @@
       "stage_index": 0,
       "stage": "Group",
       "status": "alive",
-      "win_prob": 0.0026
+      "win_prob": 0.0027
     },
     "Sweden": {
       "abbr": "swe",
@@ -3358,7 +3358,7 @@
       "stage_index": 0,
       "stage": "Group",
       "status": "alive",
-      "win_prob": 0.0037
+      "win_prob": 0.0036
     },
     "Tunisia": {
       "abbr": "tun",
@@ -3375,7 +3375,7 @@
       "stage_index": 0,
       "stage": "Group",
       "status": "alive",
-      "win_prob": 0.1367
+      "win_prob": 0.1373
     },
     "Cape Verde": {
       "abbr": "cpv",
@@ -3393,7 +3393,7 @@
       "stage_index": 0,
       "stage": "Group",
       "status": "alive",
-      "win_prob": 0.0153
+      "win_prob": 0.0161
     },
     "Egypt": {
       "abbr": "egy",
@@ -3420,7 +3420,7 @@
       "stage_index": 0,
       "stage": "Group",
       "status": "alive",
-      "win_prob": 0.0031
+      "win_prob": 0.003
     },
     "Iran": {
       "abbr": "irn",
@@ -3447,7 +3447,7 @@
       "stage_index": 0,
       "stage": "Group",
       "status": "alive",
-      "win_prob": 0.1851
+      "win_prob": 0.184
     },
     "Senegal": {
       "abbr": "sen",
@@ -3456,7 +3456,7 @@
       "stage_index": 0,
       "stage": "Group",
       "status": "alive",
-      "win_prob": 0.0058
+      "win_prob": 0.0062
     },
     "Iraq": {
       "abbr": "irq",
@@ -3474,7 +3474,7 @@
       "stage_index": 0,
       "stage": "Group",
       "status": "alive",
-      "win_prob": 0.0222
+      "win_prob": 0.0218
     },
     "Argentina": {
       "abbr": "arg",
@@ -3483,7 +3483,7 @@
       "stage_index": 0,
       "stage": "Group",
       "status": "alive",
-      "win_prob": 0.1071
+      "win_prob": 0.1075
     },
     "Algeria": {
       "abbr": "alg",
@@ -3492,7 +3492,7 @@
       "stage_index": 0,
       "stage": "Group",
       "status": "alive",
-      "win_prob": 0.0022
+      "win_prob": 0.0013
     },
     "Austria": {
       "abbr": "aut",
@@ -3501,7 +3501,7 @@
       "stage_index": 0,
       "stage": "Group",
       "status": "alive",
-      "win_prob": 0.0049
+      "win_prob": 0.005
     },
     "Jordan": {
       "abbr": "jor",
@@ -3519,7 +3519,7 @@
       "stage_index": 0,
       "stage": "Group",
       "status": "alive",
-      "win_prob": 0.0711
+      "win_prob": 0.0729
     },
     "Congo DR": {
       "abbr": "cod",
@@ -3536,7 +3536,7 @@
       "stage_index": 0,
       "stage": "Group",
       "status": "alive",
-      "win_prob": 0.1234
+      "win_prob": 0.124
     },
     "Croatia": {
       "abbr": "cro",
@@ -3601,59 +3601,59 @@
     }
   },
   "odds": {
-    "updated": "2026-06-22T08:40:01Z",
+    "updated": "2026-06-22T14:45:44Z",
     "championship": {
       "France": {
-        "prob": 0.1851,
-        "decimal": 4.8
+        "prob": 0.184,
+        "decimal": 4.85
       },
       "Spain": {
-        "prob": 0.1367,
+        "prob": 0.1373,
         "decimal": 6.5
       },
       "England": {
-        "prob": 0.1234,
+        "prob": 0.124,
         "decimal": 7.2
       },
       "Argentina": {
-        "prob": 0.1071,
+        "prob": 0.1075,
         "decimal": 8.3
       },
       "Portugal": {
-        "prob": 0.0711,
-        "decimal": 12.5
+        "prob": 0.0729,
+        "decimal": 12.25
       },
       "Germany": {
-        "prob": 0.0573,
-        "decimal": 15.5
+        "prob": 0.0567,
+        "decimal": 15.75
       },
       "Brazil": {
-        "prob": 0.0592,
-        "decimal": 15.0
+        "prob": 0.0576,
+        "decimal": 15.5
       },
       "Netherlands": {
-        "prob": 0.0508,
-        "decimal": 17.5
+        "prob": 0.0503,
+        "decimal": 17.75
       },
       "United States": {
-        "prob": 0.0261,
+        "prob": 0.0263,
         "decimal": 34.0
       },
-      "Norway": {
-        "prob": 0.0222,
-        "decimal": 40.0
-      },
       "Morocco": {
-        "prob": 0.0237,
+        "prob": 0.0238,
         "decimal": 37.5
       },
+      "Norway": {
+        "prob": 0.0218,
+        "decimal": 41.0
+      },
       "Japan": {
-        "prob": 0.0195,
+        "prob": 0.0196,
         "decimal": 45.5
       },
       "Belgium": {
-        "prob": 0.0153,
-        "decimal": 58.0
+        "prob": 0.0161,
+        "decimal": 55.5
       },
       "Colombia": {
         "prob": 0.0168,
@@ -3664,16 +3664,12 @@
         "decimal": 68.0
       },
       "Switzerland": {
-        "prob": 0.0084,
-        "decimal": 105.5
-      },
-      "Australia": {
-        "prob": 0.0048,
-        "decimal": 185.5
+        "prob": 0.0093,
+        "decimal": 95.5
       },
       "Senegal": {
-        "prob": 0.0058,
-        "decimal": 153.0
+        "prob": 0.0062,
+        "decimal": 143.0
       },
       "Croatia": {
         "prob": 0.0059,
@@ -3684,48 +3680,52 @@
         "decimal": 185.5
       },
       "Austria": {
-        "prob": 0.0049,
-        "decimal": 183.0
+        "prob": 0.005,
+        "decimal": 178.0
+      },
+      "Australia": {
+        "prob": 0.004,
+        "decimal": 220.5
       },
       "Canada": {
         "prob": 0.0048,
         "decimal": 185.5
       },
-      "Algeria": {
-        "prob": 0.0022,
-        "decimal": 400.5
-      },
-      "Sweden": {
-        "prob": 0.0037,
-        "decimal": 240.5
-      },
       "Egypt": {
         "prob": 0.0031,
         "decimal": 290.5
       },
-      "Uruguay": {
-        "prob": 0.0031,
-        "decimal": 285.5
+      "Sweden": {
+        "prob": 0.0036,
+        "decimal": 245.5
       },
       "Ecuador": {
-        "prob": 0.0026,
-        "decimal": 335.5
+        "prob": 0.0027,
+        "decimal": 325.5
+      },
+      "Uruguay": {
+        "prob": 0.003,
+        "decimal": 295.5
       },
       "South Korea": {
         "prob": 0.0021,
-        "decimal": 420.5
+        "decimal": 425.5
       },
       "Paraguay": {
-        "prob": 0.0017,
-        "decimal": 530.5
+        "prob": 0.0016,
+        "decimal": 545.5
       },
       "Scotland": {
         "prob": 0.0017,
-        "decimal": 510.5
+        "decimal": 525.5
       },
       "Ghana": {
         "prob": 0.0014,
-        "decimal": 620.5
+        "decimal": 625.5
+      },
+      "Algeria": {
+        "prob": 0.0013,
+        "decimal": 710.5
       },
       "Iran": {
         "prob": 0.0012,
