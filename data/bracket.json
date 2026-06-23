@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-23T22:18:05Z",
+  "last_updated": "2026-06-23T23:36:30Z",
   "phase": "knockout",
   "champion": null,
   "groups": [],
@@ -2402,9 +2402,9 @@
       "id": "760460",
       "date": "2026-06-23T23:00Z",
       "round": "1",
-      "state": "pre",
+      "state": "in",
       "completed": false,
-      "detail": "Scheduled",
+      "detail": "36'",
       "competitors": [
         {
           "team": "Panama",
