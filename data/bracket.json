@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-22T23:24:14Z",
+  "last_updated": "2026-06-23T01:31:52Z",
   "phase": "knockout",
   "champion": null,
   "groups": [],
@@ -2262,16 +2262,16 @@
       "id": "760457",
       "date": "2026-06-22T21:00Z",
       "round": "1",
-      "state": "in",
-      "completed": false,
-      "detail": "Delay",
+      "state": "post",
+      "completed": true,
+      "detail": "FT",
       "competitors": [
         {
           "team": "France",
           "abbr": "fra",
           "logo": "https://a.espncdn.com/i/teamlogos/countries/500/fra.png",
-          "score": 1,
-          "winner": false,
+          "score": 3,
+          "winner": true,
           "homeAway": "home",
           "advance": null
         },
@@ -2290,15 +2290,15 @@
       "id": "760454",
       "date": "2026-06-23T00:00Z",
       "round": "1",
-      "state": "pre",
+      "state": "in",
       "completed": false,
-      "detail": "Scheduled",
+      "detail": "72'",
       "competitors": [
         {
           "team": "Norway",
           "abbr": "nor",
           "logo": "https://a.espncdn.com/i/teamlogos/countries/500/nor.png",
-          "score": 0,
+          "score": 3,
           "winner": false,
           "homeAway": "home",
           "advance": null
@@ -2307,7 +2307,7 @@
           "team": "Senegal",
           "abbr": "sen",
           "logo": "https://a.espncdn.com/i/teamlogos/countries/500/sen.png",
-          "score": 0,
+          "score": 1,
           "winner": false,
           "homeAway": "away",
           "advance": null
