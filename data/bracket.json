@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-23T20:34:27Z",
+  "last_updated": "2026-06-23T22:18:05Z",
   "phase": "knockout",
   "champion": null,
   "groups": [],
@@ -2374,9 +2374,9 @@
       "id": "760458",
       "date": "2026-06-23T20:00Z",
       "round": "1",
-      "state": "in",
-      "completed": false,
-      "detail": "34'",
+      "state": "post",
+      "completed": true,
+      "detail": "FT",
       "competitors": [
         {
           "team": "England",
