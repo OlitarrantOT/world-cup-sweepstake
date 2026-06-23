@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-23T16:10:15Z",
+  "last_updated": "2026-06-23T18:22:01Z",
   "phase": "knockout",
   "champion": null,
   "groups": [],
@@ -2346,15 +2346,15 @@
       "id": "760461",
       "date": "2026-06-23T17:00Z",
       "round": "1",
-      "state": "pre",
+      "state": "in",
       "completed": false,
-      "detail": "Scheduled",
+      "detail": "58'",
       "competitors": [
         {
           "team": "Portugal",
           "abbr": "por",
           "logo": "https://a.espncdn.com/i/teamlogos/countries/500/por.png",
-          "score": 0,
+          "score": 3,
           "winner": false,
           "homeAway": "home",
           "advance": null
