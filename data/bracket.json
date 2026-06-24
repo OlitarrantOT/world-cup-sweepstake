@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-24T18:18:10Z",
+  "last_updated": "2026-06-24T20:18:23Z",
   "phase": "knockout",
   "champion": null,
   "groups": [],
@@ -2458,15 +2458,15 @@
       "id": "760462",
       "date": "2026-06-24T19:00Z",
       "round": "1",
-      "state": "pre",
+      "state": "in",
       "completed": false,
-      "detail": "Scheduled",
+      "detail": "56'",
       "competitors": [
         {
           "team": "Bosnia-Herzegovina",
           "abbr": "bih",
           "logo": "https://a.espncdn.com/i/teamlogos/countries/500/bih.png",
-          "score": 0,
+          "score": 2,
           "winner": false,
           "homeAway": "home",
           "advance": null
@@ -2475,7 +2475,7 @@
           "team": "Qatar",
           "abbr": "qat",
           "logo": "https://a.espncdn.com/i/teamlogos/countries/500/qat.png",
-          "score": 0,
+          "score": 1,
           "winner": false,
           "homeAway": "away",
           "advance": null
@@ -2486,15 +2486,15 @@
       "id": "760463",
       "date": "2026-06-24T19:00Z",
       "round": "1",
-      "state": "pre",
+      "state": "in",
       "completed": false,
-      "detail": "Scheduled",
+      "detail": "59'",
       "competitors": [
         {
           "team": "Switzerland",
           "abbr": "sui",
           "logo": "https://a.espncdn.com/i/teamlogos/countries/500/sui.png",
-          "score": 0,
+          "score": 2,
           "winner": false,
           "homeAway": "home",
           "advance": null
