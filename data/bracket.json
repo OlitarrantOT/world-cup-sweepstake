@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-25T17:32:10Z",
+  "last_updated": "2026-06-25T20:07:32Z",
   "phase": "knockout",
   "champion": null,
   "groups": [],
@@ -2626,9 +2626,9 @@
       "id": "760473",
       "date": "2026-06-25T20:00Z",
       "round": "1",
-      "state": "pre",
+      "state": "in",
       "completed": false,
-      "detail": "Scheduled",
+      "detail": "6'",
       "competitors": [
         {
           "team": "Curaçao",
@@ -2654,9 +2654,9 @@
       "id": "760468",
       "date": "2026-06-25T20:00Z",
       "round": "1",
-      "state": "pre",
+      "state": "in",
       "completed": false,
-      "detail": "Scheduled",
+      "detail": "6'",
       "competitors": [
         {
           "team": "Ecuador",
@@ -2671,7 +2671,7 @@
           "team": "Germany",
           "abbr": "ger",
           "logo": "https://a.espncdn.com/i/teamlogos/countries/500/ger.png",
-          "score": 0,
+          "score": 1,
           "winner": false,
           "homeAway": "away",
           "advance": null
