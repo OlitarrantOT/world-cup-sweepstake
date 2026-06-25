@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-25T01:32:26Z",
+  "last_updated": "2026-06-25T06:12:41Z",
   "phase": "knockout",
   "champion": null,
   "groups": [],
@@ -14,9 +14,9 @@
         "detail": "Scheduled",
         "competitors": [
           {
-            "team": "Group A 2nd Place",
-            "abbr": "2a",
-            "logo": "",
+            "team": "South Africa",
+            "abbr": "rsa",
+            "logo": "https://a.espncdn.com/i/teamlogos/countries/500/rsa.png",
             "score": 0,
             "winner": false,
             "homeAway": "home",
@@ -2570,9 +2570,9 @@
       "id": "760467",
       "date": "2026-06-25T01:00Z",
       "round": "1",
-      "state": "in",
-      "completed": false,
-      "detail": "32'",
+      "state": "post",
+      "completed": true,
+      "detail": "FT",
       "competitors": [
         {
           "team": "Czechia",
@@ -2587,8 +2587,8 @@
           "team": "Mexico",
           "abbr": "mex",
           "logo": "https://a.espncdn.com/i/teamlogos/countries/500/mex.png",
-          "score": 0,
-          "winner": false,
+          "score": 3,
+          "winner": true,
           "homeAway": "away",
           "advance": null
         }
@@ -2598,16 +2598,16 @@
       "id": "760466",
       "date": "2026-06-25T01:00Z",
       "round": "1",
-      "state": "in",
-      "completed": false,
-      "detail": "32'",
+      "state": "post",
+      "completed": true,
+      "detail": "FT",
       "competitors": [
         {
           "team": "South Africa",
           "abbr": "rsa",
           "logo": "https://a.espncdn.com/i/teamlogos/countries/500/rsa.png",
-          "score": 0,
-          "winner": false,
+          "score": 1,
+          "winner": true,
           "homeAway": "home",
           "advance": null
         },
@@ -3135,9 +3135,9 @@
       "detail": "Scheduled",
       "competitors": [
         {
-          "team": "Group A 2nd Place",
-          "abbr": "2a",
-          "logo": "",
+          "team": "South Africa",
+          "abbr": "rsa",
+          "logo": "https://a.espncdn.com/i/teamlogos/countries/500/rsa.png",
           "score": 0,
           "winner": false,
           "homeAway": "home",
@@ -3169,8 +3169,8 @@
       "abbr": "rsa",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/rsa.png",
       "in_tournament": true,
-      "stage_index": 0,
-      "stage": "Group",
+      "stage_index": 1,
+      "stage": "Round of 32",
       "status": "alive",
       "win_prob": 0.0007
     },
@@ -3579,14 +3579,6 @@
       "stage": "Group",
       "status": "alive",
       "win_prob": 0.0155
-    },
-    "Group A 2nd Place": {
-      "abbr": "2a",
-      "logo": null,
-      "in_tournament": true,
-      "stage_index": 1,
-      "stage": "Round of 32",
-      "status": "alive"
     }
   },
   "odds": {
