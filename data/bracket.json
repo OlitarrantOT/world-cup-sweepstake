@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-25T20:07:32Z",
+  "last_updated": "2026-06-25T22:05:13Z",
   "phase": "knockout",
   "champion": null,
   "groups": [],
@@ -2626,9 +2626,9 @@
       "id": "760473",
       "date": "2026-06-25T20:00Z",
       "round": "1",
-      "state": "in",
-      "completed": false,
-      "detail": "6'",
+      "state": "post",
+      "completed": true,
+      "detail": "FT",
       "competitors": [
         {
           "team": "Curaçao",
@@ -2643,8 +2643,8 @@
           "team": "Ivory Coast",
           "abbr": "civ",
           "logo": "https://a.espncdn.com/i/teamlogos/countries/500/civ.png",
-          "score": 0,
-          "winner": false,
+          "score": 2,
+          "winner": true,
           "homeAway": "away",
           "advance": null
         }
@@ -2654,16 +2654,16 @@
       "id": "760468",
       "date": "2026-06-25T20:00Z",
       "round": "1",
-      "state": "in",
-      "completed": false,
-      "detail": "6'",
+      "state": "post",
+      "completed": true,
+      "detail": "FT",
       "competitors": [
         {
           "team": "Ecuador",
           "abbr": "ecu",
           "logo": "https://a.espncdn.com/i/teamlogos/countries/500/ecu.png",
-          "score": 0,
-          "winner": false,
+          "score": 2,
+          "winner": true,
           "homeAway": "home",
           "advance": null
         },
