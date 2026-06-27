@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-27T21:38:48Z",
+  "last_updated": "2026-06-27T23:08:04Z",
   "phase": "knockout",
   "champion": null,
   "groups": [],
@@ -2962,16 +2962,16 @@
       "id": "760480",
       "date": "2026-06-27T21:00Z",
       "round": "1",
-      "state": "in",
-      "completed": false,
-      "detail": "37'",
+      "state": "post",
+      "completed": true,
+      "detail": "FT",
       "competitors": [
         {
           "team": "Croatia",
           "abbr": "cro",
           "logo": "https://a.espncdn.com/i/teamlogos/countries/500/cro.png",
-          "score": 1,
-          "winner": false,
+          "score": 2,
+          "winner": true,
           "homeAway": "home",
           "advance": null
         },
@@ -2979,7 +2979,7 @@
           "team": "Ghana",
           "abbr": "gha",
           "logo": "https://a.espncdn.com/i/teamlogos/countries/500/gha.png",
-          "score": 0,
+          "score": 1,
           "winner": false,
           "homeAway": "away",
           "advance": null
@@ -2990,9 +2990,9 @@
       "id": "760485",
       "date": "2026-06-27T21:00Z",
       "round": "1",
-      "state": "in",
-      "completed": false,
-      "detail": "38'",
+      "state": "post",
+      "completed": true,
+      "detail": "FT",
       "competitors": [
         {
           "team": "Panama",
@@ -3007,8 +3007,8 @@
           "team": "England",
           "abbr": "eng",
           "logo": "https://a.espncdn.com/i/teamlogos/countries/500/eng.png",
-          "score": 0,
-          "winner": false,
+          "score": 2,
+          "winner": true,
           "homeAway": "away",
           "advance": null
         }
