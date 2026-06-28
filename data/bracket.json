@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-28T01:34:32Z",
+  "last_updated": "2026-06-28T06:23:51Z",
   "phase": "knockout",
   "champion": null,
   "groups": [],
@@ -219,9 +219,9 @@
             "advance": null
           },
           {
-            "team": "Third Place Group E/H/I/J/K",
-            "abbr": "3rd",
-            "logo": "",
+            "team": "Congo DR",
+            "abbr": "cod",
+            "logo": "https://a.espncdn.com/i/teamlogos/countries/500/rdc.png",
             "score": 0,
             "winner": false,
             "homeAway": "away",
@@ -303,9 +303,9 @@
             "advance": null
           },
           {
-            "team": "Group J 2nd Place",
-            "abbr": "2j",
-            "logo": "",
+            "team": "Austria",
+            "abbr": "aut",
+            "logo": "https://a.espncdn.com/i/teamlogos/countries/500/aut.png",
             "score": 0,
             "winner": false,
             "homeAway": "away",
@@ -359,9 +359,9 @@
             "advance": null
           },
           {
-            "team": "Third Place Group E/F/G/I/J",
-            "abbr": "3rd",
-            "logo": "",
+            "team": "Algeria",
+            "abbr": "alg",
+            "logo": "https://a.espncdn.com/i/teamlogos/countries/500/alg.png",
             "score": 0,
             "winner": false,
             "homeAway": "away",
@@ -3074,15 +3074,15 @@
       "id": "760484",
       "date": "2026-06-28T02:00Z",
       "round": "1",
-      "state": "pre",
-      "completed": false,
-      "detail": "Scheduled",
+      "state": "post",
+      "completed": true,
+      "detail": "FT",
       "competitors": [
         {
           "team": "Algeria",
           "abbr": "alg",
           "logo": "https://a.espncdn.com/i/teamlogos/countries/500/alg.png",
-          "score": 0,
+          "score": 3,
           "winner": false,
           "homeAway": "home",
           "advance": null
@@ -3091,7 +3091,7 @@
           "team": "Austria",
           "abbr": "aut",
           "logo": "https://a.espncdn.com/i/teamlogos/countries/500/aut.png",
-          "score": 0,
+          "score": 3,
           "winner": false,
           "homeAway": "away",
           "advance": null
@@ -3102,15 +3102,15 @@
       "id": "760483",
       "date": "2026-06-28T02:00Z",
       "round": "1",
-      "state": "pre",
-      "completed": false,
-      "detail": "Scheduled",
+      "state": "post",
+      "completed": true,
+      "detail": "FT",
       "competitors": [
         {
           "team": "Jordan",
           "abbr": "jor",
           "logo": "https://a.espncdn.com/i/teamlogos/countries/500/jor.png",
-          "score": 0,
+          "score": 1,
           "winner": false,
           "homeAway": "home",
           "advance": null
@@ -3119,8 +3119,8 @@
           "team": "Argentina",
           "abbr": "arg",
           "logo": "https://a.espncdn.com/i/teamlogos/countries/500/arg.png",
-          "score": 0,
-          "winner": false,
+          "score": 3,
+          "winner": true,
           "homeAway": "away",
           "advance": null
         }
@@ -3482,8 +3482,8 @@
       "abbr": "alg",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/alg.png",
       "in_tournament": true,
-      "stage_index": 0,
-      "stage": "Group",
+      "stage_index": 1,
+      "stage": "Round of 32",
       "status": "alive",
       "win_prob": 0.0012
     },
@@ -3491,8 +3491,8 @@
       "abbr": "aut",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/aut.png",
       "in_tournament": true,
-      "stage_index": 0,
-      "stage": "Group",
+      "stage_index": 1,
+      "stage": "Round of 32",
       "status": "alive",
       "win_prob": 0.0028
     },
@@ -3517,8 +3517,8 @@
       "abbr": "cod",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/rdc.png",
       "in_tournament": true,
-      "stage_index": 0,
-      "stage": "Group",
+      "stage_index": 1,
+      "stage": "Round of 32",
       "status": "alive"
     },
     "England": {
