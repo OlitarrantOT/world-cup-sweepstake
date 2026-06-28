@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-28T18:07:56Z",
+  "last_updated": "2026-06-28T19:55:04Z",
   "phase": "knockout",
   "champion": null,
   "groups": [],
@@ -9,9 +9,9 @@
         "id": "760486",
         "date": "2026-06-28T19:00Z",
         "round": "2",
-        "state": "pre",
+        "state": "in",
         "completed": false,
-        "detail": "Scheduled",
+        "detail": "HT",
         "competitors": [
           {
             "team": "South Africa",
@@ -3130,9 +3130,9 @@
       "id": "760486",
       "date": "2026-06-28T19:00Z",
       "round": "1",
-      "state": "pre",
+      "state": "in",
       "completed": false,
-      "detail": "Scheduled",
+      "detail": "HT",
       "competitors": [
         {
           "team": "South Africa",
