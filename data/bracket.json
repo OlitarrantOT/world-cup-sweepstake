@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-29T21:53:03Z",
+  "last_updated": "2026-06-29T23:02:23Z",
   "phase": "knockout",
   "champion": null,
   "groups": [],
@@ -65,15 +65,15 @@
         "id": "760489",
         "date": "2026-06-29T20:30Z",
         "round": "2",
-        "state": "pre",
+        "state": "in",
         "completed": false,
-        "detail": "Scheduled",
+        "detail": "105'+2'",
         "competitors": [
           {
             "team": "Germany",
             "abbr": "ger",
             "logo": "https://a.espncdn.com/i/teamlogos/countries/500/ger.png",
-            "score": 0,
+            "score": 1,
             "winner": false,
             "homeAway": "home",
             "advance": null
@@ -82,7 +82,7 @@
             "team": "Paraguay",
             "abbr": "par",
             "logo": "https://a.espncdn.com/i/teamlogos/countries/500/par.png",
-            "score": 0,
+            "score": 1,
             "winner": false,
             "homeAway": "away",
             "advance": null
