@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-30T19:20:20Z",
+  "last_updated": "2026-06-30T21:15:28Z",
   "phase": "knockout",
   "champion": null,
   "groups": [],
@@ -149,9 +149,9 @@
         "id": "760492",
         "date": "2026-06-30T21:00Z",
         "round": "2",
-        "state": "pre",
+        "state": "in",
         "completed": false,
-        "detail": "Scheduled",
+        "detail": "15'",
         "competitors": [
           {
             "team": "France",
