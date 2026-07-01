@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-01T15:20:13Z",
+  "last_updated": "2026-07-01T17:29:37Z",
   "phase": "knockout",
   "champion": null,
   "groups": [],
@@ -205,9 +205,9 @@
         "id": "760495",
         "date": "2026-07-01T16:00Z",
         "round": "2",
-        "state": "pre",
+        "state": "in",
         "completed": false,
-        "detail": "Scheduled",
+        "detail": "66'",
         "competitors": [
           {
             "team": "England",
@@ -222,7 +222,7 @@
             "team": "Congo DR",
             "abbr": "cod",
             "logo": "https://a.espncdn.com/i/teamlogos/countries/500/rdc.png",
-            "score": 0,
+            "score": 1,
             "winner": false,
             "homeAway": "away",
             "advance": null
