@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-01T19:21:39Z",
+  "last_updated": "2026-07-01T21:07:59Z",
   "phase": "knockout",
   "champion": null,
   "groups": [],
@@ -233,9 +233,9 @@
         "id": "760493",
         "date": "2026-07-01T20:00Z",
         "round": "2",
-        "state": "pre",
+        "state": "in",
         "completed": false,
-        "detail": "Scheduled",
+        "detail": "HT",
         "competitors": [
           {
             "team": "Belgium",
@@ -250,7 +250,7 @@
             "team": "Senegal",
             "abbr": "sen",
             "logo": "https://a.espncdn.com/i/teamlogos/countries/500/sen.png",
-            "score": 0,
+            "score": 1,
             "winner": false,
             "homeAway": "away",
             "advance": null
