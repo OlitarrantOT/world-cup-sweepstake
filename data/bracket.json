@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-01T22:48:16Z",
+  "last_updated": "2026-07-02T00:13:15Z",
   "phase": "knockout",
   "champion": null,
   "groups": [],
@@ -233,16 +233,16 @@
         "id": "760493",
         "date": "2026-07-01T20:00Z",
         "round": "2",
-        "state": "in",
-        "completed": false,
-        "detail": "120'+10'",
+        "state": "post",
+        "completed": true,
+        "detail": "AET",
         "competitors": [
           {
             "team": "Belgium",
             "abbr": "bel",
             "logo": "https://a.espncdn.com/i/teamlogos/countries/500/bel.png",
             "score": 3,
-            "winner": false,
+            "winner": true,
             "homeAway": "home",
             "advance": null
           },
@@ -261,9 +261,9 @@
         "id": "760494",
         "date": "2026-07-02T00:00Z",
         "round": "2",
-        "state": "pre",
+        "state": "in",
         "completed": false,
-        "detail": "Scheduled",
+        "detail": "13'",
         "competitors": [
           {
             "team": "United States",
@@ -669,9 +669,9 @@
             "advance": null
           },
           {
-            "team": "Round of 32 10 Winner",
-            "abbr": "rd32",
-            "logo": "",
+            "team": "Belgium",
+            "abbr": "bel",
+            "logo": "https://a.espncdn.com/i/teamlogos/countries/500/bel.png",
             "score": 0,
             "winner": false,
             "homeAway": "away",
@@ -3378,8 +3378,8 @@
       "abbr": "bel",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/bel.png",
       "in_tournament": true,
-      "stage_index": 1,
-      "stage": "Round of 32",
+      "stage_index": 2,
+      "stage": "Round of 16",
       "status": "alive",
       "win_prob": 0.0156
     },
@@ -3439,8 +3439,7 @@
       "in_tournament": true,
       "stage_index": 1,
       "stage": "Round of 32",
-      "status": "alive",
-      "win_prob": 0.0095
+      "status": "out"
     },
     "Iraq": {
       "abbr": "irq",
